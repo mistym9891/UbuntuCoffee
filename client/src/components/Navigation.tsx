@@ -41,7 +41,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-3 cursor-pointer">
+          <Link href="/" className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
             <img src={logoSymbol} alt="Ubuntu Coffee" className="w-10 h-10 object-contain" data-testid="img-nav-logo" />
             <span className={`font-serif font-bold text-lg ${isScrolled || !isHomePage ? "text-foreground" : "text-white"}`} data-testid="text-nav-brand">
               UBUNTU

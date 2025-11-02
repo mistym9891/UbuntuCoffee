@@ -2,8 +2,11 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@assets/generated_images/Natural_hero_plantation_photo_ee93ba44.png";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
+import { useLocation } from "wouter";
 
 export default function Hero() {
+  const [, setLocation] = useLocation();
+  
   const scrollToContent = () => {
     window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
   };
@@ -47,7 +50,7 @@ export default function Hero() {
           <Button 
             size="lg"
             className="backdrop-blur-md bg-white/20 hover:bg-white/30 text-white border-2 border-white/40 min-w-[200px] text-lg"
-            onClick={() => console.log('Explore coffee clicked')}
+            onClick={() => setLocation('/coffee')}
             data-testid="button-explore"
           >
             Explore Our Coffee
@@ -56,7 +59,7 @@ export default function Hero() {
             size="lg"
             variant="outline"
             className="backdrop-blur-md bg-white/10 hover:bg-white/20 text-white border-2 border-white/60 min-w-[200px] text-lg"
-            onClick={() => console.log('Export inquiry clicked')}
+            onClick={() => setLocation('/contact')}
             data-testid="button-inquiry"
           >
             Export Inquiry

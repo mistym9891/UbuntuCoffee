@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import lightRoastImage from "@assets/generated_images/Uniform_light_roast_premium_bacd18bd.png";
 import mediumRoastImage from "@assets/generated_images/Uniform_medium_roast_premium_1ec7e031.png";
 import darkRoastImage from "@assets/generated_images/Uniform_dark_roast_premium_baa3af8a.png";
+import { useLocation } from "wouter";
 
 const roastProfiles = [
   {
@@ -34,6 +35,8 @@ const roastProfiles = [
 ];
 
 export default function ProductShowcase() {
+  const [, setLocation] = useLocation();
+  
   return (
     <section className="py-20 px-6 bg-card">
       <div className="max-w-7xl mx-auto">
@@ -87,7 +90,7 @@ export default function ProductShowcase() {
                 <Button 
                   className="w-full" 
                   variant="default"
-                  onClick={() => console.log(`Request sample: ${roast.name}`)}
+                  onClick={() => setLocation('/contact')}
                   data-testid={`button-sample-${index}`}
                 >
                   Request Sample
