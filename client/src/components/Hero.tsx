@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@assets/generated_images/Hero_Ugandan_coffee_plantation_sunrise_b1fa9841.png";
-import logoSymbol from "@assets/generated_images/Thick_rays_transparent_logo_adc37911.png";
+import logoSymbol from "@assets/generated_images/Transparent_background_coffee_logo_23692947.png";
 
 export default function Hero() {
   const scrollToContent = () => {
