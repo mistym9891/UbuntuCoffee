@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
-import pickingImage from "@assets/generated_images/Hand-picking_coffee_cherries_closeup_bb2eb2ec.png";
-import dryingImage from "@assets/generated_images/Coffee_beans_sun-drying_process_93576b8c.png";
-import roastingImage from "@assets/generated_images/Coffee_roasting_equipment_closeup_ba3804aa.png";
-import packagingImage from "@assets/generated_images/Coffee_packaging_export_stage_40676dfb.png";
+import pickingImage from "@assets/generated_images/Real_hand_picking_cherries_f60d262e.png";
+import dryingImage from "@assets/generated_images/Authentic_sun_drying_process_58938946.png";
+import roastingImage from "@assets/generated_images/Real_roasting_equipment_photo_63bd1486.png";
+import packagingImage from "@assets/generated_images/Real_packaging_export_scene_5dc8495a.png";
 
 const journeyDetails = [
   {

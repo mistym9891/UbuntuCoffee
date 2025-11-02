@@ -1,10 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
-import europeanPlantation from "@assets/generated_images/European_visitor_at_plantation_de13dd27.png";
-import middleEasternCeremony from "@assets/generated_images/Middle_Eastern_visitor_coffee_ceremony_9905d505.png";
-import asianRoastery from "@assets/generated_images/Asian_visitors_at_roastery_bc5bca16.png";
-import internationalGroup from "@assets/generated_images/International_buyers_group_photo_2db42115.png";
-import europeanCupping from "@assets/generated_images/European_cupping_session_53670982.png";
-import asianPartnership from "@assets/generated_images/Asian-Ugandan_partnership_95791db9.png";
+import europeanPlantation from "@assets/generated_images/Real_European_visitor_farm_cbad4f71.png";
+import middleEasternCeremony from "@assets/generated_images/Real_Middle_East_coffee_ceremony_2ea3ecab.png";
+import asianRoastery from "@assets/generated_images/Real_Asian_visitors_facility_4707d690.png";
+import internationalGroup from "@assets/generated_images/Real_international_buyers_group_6cae605b.png";
+import europeanCupping from "@assets/generated_images/Real_European_cupping_session_ea9560d6.png";
+import asianPartnership from "@assets/generated_images/Real_Asian_Uganda_partnership_af040ea9.png";
 
 const galleryItems = [
   {

@@ -1,9 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Factory, Award, Coffee, Users } from "lucide-react";
-import baristaLatteArt from "@assets/generated_images/Ugandan_barista_latte_art_846383b0.png";
-import femaleBaristaPouring from "@assets/generated_images/Female_barista_pour-over_616e3a19.png";
+import baristaLatteArt from "@assets/generated_images/Real_Ugandan_barista_working_184f8a98.png";
+import femaleBaristaPouring from "@assets/generated_images/Real_female_barista_pouring_7e5910bb.png";
 import roastingFacility from "@assets/generated_images/Coffee_roasting_facility_Uganda_8a2361b6.png";
-import qualityCupping from "@assets/generated_images/Quality_control_cupping_Uganda_0b019661.png";
+import qualityCupping from "@assets/generated_images/Real_quality_control_cupping_d4681134.png";
 import baristaChampionship from "@assets/generated_images/Ugandan_barista_championship_3def82db.png";
 
 const productionSteps = [

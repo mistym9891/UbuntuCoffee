@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import farmer1Image from "@assets/generated_images/Ugandan_coffee_farmer_portrait_49eaac4d.png";
-import farmer2Image from "@assets/generated_images/Female_Ugandan_farmer_portrait_bb1131ac.png";
+import farmer1Image from "@assets/generated_images/Authentic_farmer_portrait_male_5ea28248.png";
+import farmer2Image from "@assets/generated_images/Authentic_farmer_portrait_female_e5b6ec50.png";
 
 const farmers = [
   {
