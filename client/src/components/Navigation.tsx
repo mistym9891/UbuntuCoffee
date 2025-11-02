@@ -1,14 +1,31 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Moon, Sun } from "lucide-react";
+import { Menu, X, Moon, Sun, Globe } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
+  const [language, setLanguage] = useState("EN");
   const [location] = useLocation();
+
+  const languages = [
+    { code: "EN", name: "English" },
+    { code: "FR", name: "Français" },
+    { code: "DE", name: "Deutsch" },
+    { code: "ES", name: "Español" },
+    { code: "AR", name: "العربية" },
+    { code: "ZH", name: "中文" },
+    { code: "JA", name: "日本語" },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,6 +83,31 @@ export default function Navigation() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className={`gap-2 ${isScrolled || !isHomePage ? "" : "text-white hover:bg-white/10"}`}
+                  data-testid="button-language"
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="text-sm font-medium">{language}</span>
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" data-testid="menu-language">
+                {languages.map((lang) => (
+                  <DropdownMenuItem
+                    key={lang.code}
+                    onClick={() => setLanguage(lang.code)}
+                    className={language === lang.code ? "bg-accent" : ""}
+                    data-testid={`lang-${lang.code.toLowerCase()}`}
+                  >
+                    {lang.name}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
             <Button
               variant="ghost"
               size="icon"
@@ -113,6 +155,22 @@ export default function Navigation() {
                 {link.name}
               </Link>
             ))}
+            <div className="pt-4 border-t border-border">
+              <p className="text-sm text-muted-foreground mb-2">Language</p>
+              <div className="grid grid-cols-2 gap-2">
+                {languages.map((lang) => (
+                  <Button
+                    key={lang.code}
+                    variant={language === lang.code ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setLanguage(lang.code)}
+                    data-testid={`mobile-lang-${lang.code.toLowerCase()}`}
+                  >
+                    {lang.code}
+                  </Button>
+                ))}
+              </div>
+            </div>
             <Button 
               className="w-full"
               onClick={() => {
