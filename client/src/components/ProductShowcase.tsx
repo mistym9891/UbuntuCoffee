@@ -2,7 +2,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import lightRoastImage from "@assets/generated_images/Light_roast_coffee_packaging_bd1c0ff4.png";
-import mediumRoastImage from "@assets/Ubuntu Coffee Packaging Close-Up_1762041369592.png";
+import mediumRoastImage from "@assets/generated_images/Tilted_medium_roast_packaging_44136044.png";
 import darkRoastImage from "@assets/generated_images/Dark_roast_coffee_packaging_0d5ebddb.png";
 
 const roastProfiles = [

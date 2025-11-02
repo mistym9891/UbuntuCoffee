@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@assets/generated_images/Hero_Ugandan_coffee_plantation_sunrise_b1fa9841.png";
-import logoSymbol from "@assets/generated_images/Ubuntu_Coffee_logo_symbol_206098f4.png";
+import logoSymbol from "@assets/generated_images/Ubuntu_Coffee_logo_symbol_6e4118d3.png";
 
 export default function Hero() {
   const scrollToContent = () => {
@@ -33,9 +33,15 @@ export default function Hero() {
           From Uganda's Highlands to Your Cup — Life is Richer When Shared
         </p>
         
-        <p className="text-lg md:text-xl text-white/90 mb-12 max-w-3xl mx-auto" data-testid="text-subtitle">
+        <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-subtitle">
           Premium 100% Arabica Coffee | Ethically Sourced | Globally Loved
         </p>
+        
+        <div className="inline-block mb-8 px-6 py-3 bg-primary/90 backdrop-blur-md rounded-full border-2 border-primary-foreground/20">
+          <p className="text-white font-semibold text-sm md:text-base" data-testid="badge-farmer-support">
+            Buy & Support Small Local Farmer Development in Ugandan Villages
+          </p>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 

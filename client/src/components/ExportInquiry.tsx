@@ -154,7 +154,8 @@ export default function ExportInquiry() {
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="pt-6">
                 <p className="font-semibold mb-3" data-testid="text-contact-title">Direct Contact</p>
-                <p className="text-sm mb-2" data-testid="text-email">export@ubuntucoffee.ug</p>
+                <p className="text-sm mb-2" data-testid="text-email-sales">sales@ubuntucoffee.co.ug</p>
+                <p className="text-sm mb-3" data-testid="text-email-info">info@ubuntucoffee.co.ug</p>
                 <p className="text-sm mb-1" data-testid="text-phone-uganda">Uganda: +256 780240662</p>
                 <p className="text-sm" data-testid="text-phone-germany">Germany: +49 517645694259</p>
               </CardContent>

@@ -15,6 +15,20 @@ const markets = [
     countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Turkey"],
     stats: "6+ Countries",
     description: "Trusted partner for luxury hospitality and retail coffee markets"
+  },
+  {
+    region: "Asia",
+    icon: Globe,
+    countries: ["Japan", "South Korea", "Singapore", "Hong Kong", "Malaysia", "Thailand"],
+    stats: "8+ Countries",
+    description: "Growing presence in Asia's specialty coffee and premium retail sectors"
+  },
+  {
+    region: "Americas",
+    icon: TrendingUp,
+    countries: ["United States", "Canada", "Brazil"],
+    stats: "3+ Countries",
+    description: "Expanding partnerships across North and South American markets"
   }
 ];
 
@@ -49,7 +63,7 @@ export default function GlobalMarkets() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
           {markets.map((market, index) => (
             <Card key={index} className="hover-elevate transition-all" data-testid={`card-market-${index}`}>
               <CardContent className="pt-8">
