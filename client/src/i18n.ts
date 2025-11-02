@@ -23,11 +23,19 @@ i18n
       zh: { translation: zh },
       ja: { translation: ja },
     },
+    supportedLngs: ['en', 'fr', 'de', 'es', 'ar', 'zh', 'ja'],
+    load: 'languageOnly',
     fallbackLng: 'en',
     debug: false,
     interpolation: {
       escapeValue: false,
     },
   });
+
+i18n.on('languageChanged', (lng) => {
+  document.documentElement.setAttribute('dir', i18n.dir(lng));
+});
+
+document.documentElement.setAttribute('dir', i18n.dir(i18n.language));
 
 export default i18n;

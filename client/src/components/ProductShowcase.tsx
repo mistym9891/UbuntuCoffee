@@ -66,7 +66,7 @@ export default function ProductShowcase() {
                   {t(`products.${roast.key}.description`)}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {(t(`products.${roast.key}.notes`, { returnObjects: true }) as string[]).map((note, i) => (
+                  {(t(`products.${roast.key}.notes`, { returnObjects: true }) as string[] || []).map((note, i) => (
                     <Badge key={i} variant="secondary" data-testid={`badge-note-${index}-${i}`}>
                       {note}
                     </Badge>

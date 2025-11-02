@@ -28,7 +28,7 @@ export default function Navigation() {
     { code: "ja", name: "日本語", display: "JA" },
   ];
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  const currentLanguage = languages.find(lang => lang.code === i18n.resolvedLanguage) || languages[0];
 
   const changeLanguage = (langCode: string) => {
     i18n.changeLanguage(langCode);
@@ -107,7 +107,7 @@ export default function Navigation() {
                   <DropdownMenuItem
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
-                    className={i18n.language === lang.code ? "bg-accent" : ""}
+                    className={i18n.resolvedLanguage === lang.code ? "bg-accent" : ""}
                     data-testid={`lang-${lang.code.toLowerCase()}`}
                   >
                     {lang.name}
@@ -168,7 +168,7 @@ export default function Navigation() {
                 {languages.map((lang) => (
                   <Button
                     key={lang.code}
-                    variant={i18n.language === lang.code ? "default" : "outline"}
+                    variant={i18n.resolvedLanguage === lang.code ? "default" : "outline"}
                     size="sm"
                     onClick={() => changeLanguage(lang.code)}
                     data-testid={`mobile-lang-${lang.code.toLowerCase()}`}
