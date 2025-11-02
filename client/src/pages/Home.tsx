@@ -4,6 +4,7 @@ import StorySection from "@/components/StorySection";
 import ProductShowcase from "@/components/ProductShowcase";
 import CoffeeJourney from "@/components/CoffeeJourney";
 import TastingNotes from "@/components/TastingNotes";
+import MadeInUganda from "@/components/MadeInUganda";
 import Gallery from "@/components/Gallery";
 import GlobalMarkets from "@/components/GlobalMarkets";
 import Reviews from "@/components/Reviews";
@@ -18,6 +19,7 @@ export default function Home() {
       <ProductShowcase />
       <CoffeeJourney />
       <TastingNotes />
+      <MadeInUganda />
       <Gallery />
       <GlobalMarkets />
       <Reviews />
