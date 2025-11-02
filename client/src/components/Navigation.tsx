@@ -9,23 +9,30 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useTranslation } from "react-i18next";
 
 export default function Navigation() {
+  const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [language, setLanguage] = useState("EN");
   const [location] = useLocation();
 
   const languages = [
-    { code: "EN", name: "English" },
-    { code: "FR", name: "Français" },
-    { code: "DE", name: "Deutsch" },
-    { code: "ES", name: "Español" },
-    { code: "AR", name: "العربية" },
-    { code: "ZH", name: "中文" },
-    { code: "JA", name: "日本語" },
+    { code: "en", name: "English", display: "EN" },
+    { code: "fr", name: "Français", display: "FR" },
+    { code: "de", name: "Deutsch", display: "DE" },
+    { code: "es", name: "Español", display: "ES" },
+    { code: "ar", name: "العربية", display: "AR" },
+    { code: "zh", name: "中文", display: "ZH" },
+    { code: "ja", name: "日本語", display: "JA" },
   ];
+
+  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+
+  const changeLanguage = (langCode: string) => {
+    i18n.changeLanguage(langCode);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,10 +48,10 @@ export default function Navigation() {
   };
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Coffee", href: "/coffee" },
-    { name: "Sustainability", href: "/sustainability" },
-    { name: "Contact", href: "/contact" }
+    { name: t('nav.home'), href: "/" },
+    { name: t('nav.coffee'), href: "/coffee" },
+    { name: t('nav.sustainability'), href: "/sustainability" },
+    { name: t('nav.contact'), href: "/contact" }
   ];
 
   const isHomePage = location === "/";
@@ -92,15 +99,15 @@ export default function Navigation() {
                   data-testid="button-language"
                 >
                   <Globe className="w-4 h-4" />
-                  <span className="text-sm font-medium">{language}</span>
+                  <span className="text-sm font-medium">{currentLanguage.display}</span>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" data-testid="menu-language">
                 {languages.map((lang) => (
                   <DropdownMenuItem
                     key={lang.code}
-                    onClick={() => setLanguage(lang.code)}
-                    className={language === lang.code ? "bg-accent" : ""}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={i18n.language === lang.code ? "bg-accent" : ""}
                     data-testid={`lang-${lang.code.toLowerCase()}`}
                   >
                     {lang.name}
@@ -122,7 +129,7 @@ export default function Navigation() {
                 variant="default"
                 data-testid="button-nav-cta"
               >
-                Order Export
+                {t('nav.orderExport')}
               </Button>
             </Link>
           </div>
@@ -161,12 +168,12 @@ export default function Navigation() {
                 {languages.map((lang) => (
                   <Button
                     key={lang.code}
-                    variant={language === lang.code ? "default" : "outline"}
+                    variant={i18n.language === lang.code ? "default" : "outline"}
                     size="sm"
-                    onClick={() => setLanguage(lang.code)}
+                    onClick={() => changeLanguage(lang.code)}
                     data-testid={`mobile-lang-${lang.code.toLowerCase()}`}
                   >
-                    {lang.code}
+                    {lang.display}
                   </Button>
                 ))}
               </div>
@@ -179,7 +186,7 @@ export default function Navigation() {
               }}
               data-testid="button-mobile-cta"
             >
-              Order Export
+              {t('nav.orderExport')}
             </Button>
             <Button
               variant="outline"

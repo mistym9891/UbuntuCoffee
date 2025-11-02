@@ -8,6 +8,7 @@ import Coffee from "@/pages/Coffee";
 import Sustainability from "@/pages/Sustainability";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
+import "./i18n";
 
 function Router() {
   return (
