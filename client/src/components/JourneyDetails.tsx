@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import pickingImage from "@assets/generated_images/Real_hand_picking_cherries_f60d262e.png";
+import pickingImage from "@assets/generated_images/Authentic_hand_picking_closeup_294905e8.png";
 import dryingImage from "@assets/generated_images/Authentic_sun_drying_process_58938946.png";
 import roastingImage from "@assets/generated_images/Real_roasting_equipment_photo_63bd1486.png";
 import packagingImage from "@assets/generated_images/Real_packaging_export_scene_5dc8495a.png";

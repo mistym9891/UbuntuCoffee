@@ -3,8 +3,8 @@ import europeanPlantation from "@assets/generated_images/Real_European_visitor_f
 import middleEasternCeremony from "@assets/generated_images/Real_Middle_East_coffee_ceremony_2ea3ecab.png";
 import asianRoastery from "@assets/generated_images/Real_Asian_visitors_facility_4707d690.png";
 import internationalGroup from "@assets/generated_images/Real_international_buyers_group_6cae605b.png";
-import europeanCupping from "@assets/generated_images/Real_European_cupping_session_ea9560d6.png";
-import asianPartnership from "@assets/generated_images/Real_Asian_Uganda_partnership_af040ea9.png";
+import europeanCupping from "@assets/generated_images/Real_quality_control_session_8018d0ca.png";
+import asianPartnership from "@assets/generated_images/Real_women_partnership_photo_ab2bf25e.png";
 
 const galleryItems = [
   {
