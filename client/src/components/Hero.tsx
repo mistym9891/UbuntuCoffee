@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroImage from "@assets/generated_images/Natural_hero_plantation_photo_ee93ba44.png";
-import logoSymbol from "@assets/generated_images/Pure_transparent_alpha_logo_8df46b86.png";
+import logoSymbol from "@assets/generated_images/Alpha_transparent_coffee_logo_b7930b47.png";
 
 export default function Hero() {
   const scrollToContent = () => {
@@ -23,7 +23,7 @@ export default function Hero() {
           alt="Ubuntu Coffee Logo" 
           className="w-24 h-24 mx-auto mb-8 drop-shadow-lg"
           data-testid="img-logo"
-          style={{ backgroundColor: 'transparent', mixBlendMode: 'multiply' }}
+          style={{ backgroundColor: 'transparent', mixBlendMode: 'screen', filter: 'brightness(1.2) contrast(1.1)' }}
         />
         
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6 leading-tight" data-testid="text-hero-title">
