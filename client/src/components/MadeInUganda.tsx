@@ -81,17 +81,6 @@ export default function MadeInUganda() {
           ))}
         </div>
 
-        <div className="mb-16">
-          <div className="rounded-lg overflow-hidden mb-12">
-            <img 
-              src={roastingFacility} 
-              alt="Uganda coffee roasting facility" 
-              className="w-full h-auto"
-              data-testid="img-roasting-facility"
-            />
-          </div>
-        </div>
-
         <div className="text-center mb-12">
           <h3 className="font-serif text-3xl md:text-4xl font-bold text-card-foreground mb-4" data-testid="text-baristas-title">
             Uganda's Finest Baristas
@@ -125,15 +114,6 @@ export default function MadeInUganda() {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="rounded-lg overflow-hidden">
-          <img 
-            src={baristaChampionship} 
-            alt="Ugandan barista championship" 
-            className="w-full h-auto"
-            data-testid="img-barista-championship"
-          />
         </div>
       </div>
     </section>
