@@ -70,6 +70,58 @@
     "heroTitle": "联系我们",
     "heroSubtitle": "准备好将乌干达最好的咖啡带到您的市场了吗？让我们开始对话"
   },
+  "farmers": {
+    "title": "认识我们的农民",
+    "subtitle": "Ubuntu咖啡的核心是我们敬业的农民社区",
+    "james": {
+      "name": "詹姆斯·瓦苏瓦",
+      "role": "首席农民，埃尔贡山地区",
+      "quote": "Ubuntu咖啡改变了我们的社区。公平贸易意味着我的孩子可以上学，我们可以投资更好的农业实践。"
+    },
+    "sarah": {
+      "name": "莎拉·纳卡托",
+      "role": "合作社领导",
+      "quote": "通过合作社的共同努力，我们学习了可持续方法并获得了有机认证。我们自豪地与世界分享乌干达最好的咖啡。"
+    },
+    "stats": {
+      "farmers": "小农户",
+      "cooperatives": "合作社伙伴关系",
+      "organic": "有机认证",
+      "countries": "出口国家"
+    }
+  },
+  "exportInquiry": {
+    "title": "出口咨询",
+    "subtitle": "将乌干达最好的咖啡带到您的市场。联系我们获取批发和出口合作伙伴关系。",
+    "form": {
+      "title": "联系我们",
+      "companyLabel": "公司名称 *",
+      "countryLabel": "国家 *",
+      "emailLabel": "电子邮件 *",
+      "volumeLabel": "预期数量（公斤/月）",
+      "messageLabel": "留言",
+      "submitButton": "提交咨询"
+    },
+    "globalReach": {
+      "title": "全球覆盖",
+      "description": "目前出口到欧洲、亚洲和美洲的24多个国家。在国际物流和海关方面经验丰富。"
+    },
+    "certifications": {
+      "title": "认证",
+      "organic": "有机认证",
+      "fairTrade": "公平贸易",
+      "rainforest": "雨林联盟"
+    },
+    "shipping": {
+      "title": "运输和最小订货量",
+      "description": "最小订单：100公斤。我们与可靠的货运合作伙伴合作，提供全球海运和空运服务。"
+    },
+    "directContact": {
+      "title": "直接联系",
+      "uganda": "乌干达",
+      "germany": "德国"
+    }
+  },
   "footer": {
     "brand": "乌班图咖啡",
     "tagline": "乌干达 - 非洲明珠",

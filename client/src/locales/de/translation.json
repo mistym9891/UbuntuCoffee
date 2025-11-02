@@ -70,6 +70,92 @@
     "heroTitle": "Kontaktieren Sie Uns",
     "heroSubtitle": "Bereit, Ugandas besten Kaffee auf Ihren Markt zu bringen? Lassen Sie uns ins Gespräch kommen"
   },
+  "farmers": {
+    "title": "Treffen Sie Unsere Bauern",
+    "subtitle": "Das Herz von Ubuntu Coffee ist unsere Gemeinschaft engagierter Bauern",
+    "james": {
+      "name": "James Wasswa",
+      "role": "Hauptbauer, Mt. Elgon Region",
+      "quote": "Ubuntu Coffee hat unsere Gemeinschaft transformiert. Fairer Handel bedeutet, dass meine Kinder zur Schule gehen können und wir in bessere landwirtschaftliche Praktiken investieren können."
+    },
+    "sarah": {
+      "name": "Sarah Nakato",
+      "role": "Kooperativenleiterin",
+      "quote": "Durch die Zusammenarbeit in der Kooperative haben wir nachhaltige Methoden gelernt und die Bio-Zertifizierung erreicht. Wir sind stolz darauf, Ugandas besten Kaffee mit der Welt zu teilen."
+    },
+    "stats": {
+      "farmers": "Kleinbauern",
+      "cooperatives": "Kooperativpartnerschaften",
+      "organic": "Bio-Zertifiziert",
+      "countries": "Exportländer"
+    }
+  },
+  "exportInquiry": {
+    "title": "Exportanfrage",
+    "subtitle": "Bringen Sie Ugandas besten Kaffee auf Ihren Markt. Kontaktieren Sie uns für Großhandels- und Exportpartnerschaften.",
+    "form": {
+      "title": "Kontaktieren Sie Uns",
+      "companyLabel": "Firmenname *",
+      "countryLabel": "Land *",
+      "emailLabel": "E-Mail *",
+      "volumeLabel": "Erwartetes Volumen (kg/Monat)",
+      "messageLabel": "Nachricht",
+      "submitButton": "Anfrage Senden"
+    },
+    "globalReach": {
+      "title": "Globale Reichweite",
+      "description": "Derzeit Export in über 24 Länder in Europa, Asien und Amerika. Erfahrung in internationaler Logistik und Zoll."
+    },
+    "certifications": {
+      "title": "Zertifizierungen",
+      "organic": "Bio-Zertifiziert",
+      "fairTrade": "Fairer Handel",
+      "rainforest": "Rainforest Alliance"
+    },
+    "shipping": {
+      "title": "Versand & MOQ",
+      "description": "Mindestbestellung: 100kg. Wir arbeiten mit zuverlässigen Frachtpartnern für See- und Luftfracht weltweit."
+    },
+    "directContact": {
+      "title": "Direkter Kontakt",
+      "uganda": "Uganda",
+      "germany": "Deutschland"
+    }
+  },
+  "reviews": {
+    "title": "Was Unsere Partner Sagen",
+    "subtitle": "Vertraut von Premium-Kaffeekäufern in Europa und dem Nahen Osten",
+    "hans": {
+      "name": "Hans Mueller",
+      "location": "Munich, Germany",
+      "review": "Die Qualität ist außergewöhnlich! Wir importieren Ubuntu Coffee für unsere Café-Kette in ganz Deutschland. Unsere Kunden lieben die reichhaltigen Schokoladennoten und die Geschichte hinter jeder Tüte."
+    },
+    "sarah": {
+      "name": "Sarah Osman",
+      "location": "Dubai, UAE",
+      "review": "Als Premium-Kaffeehändler im Nahen Osten sticht Ubuntu Coffee heraus. Die ethische Beschaffung und die vulkanische Hochlandherkunft schaffen ein einzigartiges Geschmacksprofil, das unsere Kunden schätzen."
+    },
+    "marco": {
+      "name": "Marco Rossi",
+      "location": "Milan, Italy",
+      "review": "Absolut hervorragend! Die mittlere Röstung ist perfekt für Espresso. Wir arbeiten seit zwei Jahren mit Ubuntu Coffee zusammen und die Qualitätskonsistenz ist bemerkenswert. Sehr empfehlenswert für europäische Märkte."
+    },
+    "ahmed": {
+      "name": "Ahmed Al-Rashid",
+      "location": "Riyadh, Saudi Arabia",
+      "review": "Herausragender Kaffee mit authentischem afrikanischem Charakter. Die Ubuntu-Philosophie steht im Einklang mit unseren Werten von Gemeinschaft und Qualität. Wir sind stolz darauf, dies in unseren Gastronomiebetrieben zu servieren."
+    },
+    "emma": {
+      "name": "Emma Thompson",
+      "location": "London, UK",
+      "review": "Die Transparenz und fairen Handelspraktiken haben uns anfangs angezogen, aber der unglaubliche Geschmack lässt uns immer wieder bestellen. Perfekt für den anspruchsvollen britischen Kaffeemarkt."
+    },
+    "yusuf": {
+      "name": "Yusuf Hassan",
+      "location": "Istanbul, Turkey",
+      "review": "Eine Brücke zwischen afrikanischer Exzellenz und globaler Kaffeekultur. Die floralen Noten in der hellen Röstung sind außergewöhnlich. Unsere Großhandelspartnerschaft wächst weiterhin stark."
+    }
+  },
   "footer": {
     "brand": "UBUNTU COFFEE",
     "tagline": "Uganda - Perle Afrikas",

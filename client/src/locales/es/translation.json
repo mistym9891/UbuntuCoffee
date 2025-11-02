@@ -70,6 +70,58 @@
     "heroTitle": "Contáctenos",
     "heroSubtitle": "¿Listo para traer el mejor café de Uganda a tu mercado? Comencemos una conversación"
   },
+  "farmers": {
+    "title": "Conozca a Nuestros Agricultores",
+    "subtitle": "El corazón de Ubuntu Coffee es nuestra comunidad de agricultores dedicados",
+    "james": {
+      "name": "James Wasswa",
+      "role": "Agricultor Principal, Región del Monte Elgon",
+      "quote": "Ubuntu Coffee ha transformado nuestra comunidad. El comercio justo significa que mis hijos pueden ir a la escuela y podemos invertir en mejores prácticas agrícolas."
+    },
+    "sarah": {
+      "name": "Sarah Nakato",
+      "role": "Líder Cooperativa",
+      "quote": "Trabajando juntos como cooperativa, hemos aprendido métodos sostenibles y logrado la certificación orgánica. Estamos orgullosos de compartir el mejor café de Uganda con el mundo."
+    },
+    "stats": {
+      "farmers": "Pequeños Agricultores",
+      "cooperatives": "Asociaciones Cooperativas",
+      "organic": "Certificado Orgánico",
+      "countries": "Países Exportados"
+    }
+  },
+  "exportInquiry": {
+    "title": "Consulta de Exportación",
+    "subtitle": "Traiga el mejor café de Uganda a su mercado. Contáctenos para asociaciones mayoristas y de exportación.",
+    "form": {
+      "title": "Póngase en Contacto",
+      "companyLabel": "Nombre de la Empresa *",
+      "countryLabel": "País *",
+      "emailLabel": "Correo Electrónico *",
+      "volumeLabel": "Volumen Esperado (kg/mes)",
+      "messageLabel": "Mensaje",
+      "submitButton": "Enviar Consulta"
+    },
+    "globalReach": {
+      "title": "Alcance Global",
+      "description": "Actualmente exportando a más de 24 países en Europa, Asia y América. Experiencia en logística internacional y aduanas."
+    },
+    "certifications": {
+      "title": "Certificaciones",
+      "organic": "Certificado Orgánico",
+      "fairTrade": "Comercio Justo",
+      "rainforest": "Rainforest Alliance"
+    },
+    "shipping": {
+      "title": "Envío y MOQ",
+      "description": "Pedido mínimo: 100kg. Trabajamos con socios de carga confiables para envíos marítimos y aéreos en todo el mundo."
+    },
+    "directContact": {
+      "title": "Contacto Directo",
+      "uganda": "Uganda",
+      "germany": "Alemania"
+    }
+  },
   "footer": {
     "brand": "UBUNTU COFFEE",
     "tagline": "Uganda - Perla de África",

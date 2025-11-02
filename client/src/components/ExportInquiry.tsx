@@ -6,8 +6,10 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { Globe, Award, Ship } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function ExportInquiry() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     company: "",
     country: "",
@@ -30,22 +32,22 @@ export default function ExportInquiry() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-card-foreground mb-4" data-testid="text-export-title">
-            Export Inquiry
+            {t('exportInquiry.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-export-subtitle">
-            Bring Uganda's finest coffee to your market. Contact us for wholesale and export partnerships.
+            {t('exportInquiry.subtitle')}
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <Card>
             <CardHeader>
-              <CardTitle data-testid="text-form-title">Get in Touch</CardTitle>
+              <CardTitle data-testid="text-form-title">{t('exportInquiry.form.title')}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <Label htmlFor="company">Company Name *</Label>
+                  <Label htmlFor="company">{t('exportInquiry.form.companyLabel')}</Label>
                   <Input 
                     id="company" 
                     name="company"
@@ -56,7 +58,7 @@ export default function ExportInquiry() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="country">Country *</Label>
+                  <Label htmlFor="country">{t('exportInquiry.form.countryLabel')}</Label>
                   <Input 
                     id="country" 
                     name="country"
@@ -67,7 +69,7 @@ export default function ExportInquiry() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="email">Email *</Label>
+                  <Label htmlFor="email">{t('exportInquiry.form.emailLabel')}</Label>
                   <Input 
                     id="email" 
                     name="email"
@@ -79,7 +81,7 @@ export default function ExportInquiry() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="volume">Expected Volume (kg/month)</Label>
+                  <Label htmlFor="volume">{t('exportInquiry.form.volumeLabel')}</Label>
                   <Input 
                     id="volume" 
                     name="volume"
@@ -89,7 +91,7 @@ export default function ExportInquiry() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">{t('exportInquiry.form.messageLabel')}</Label>
                   <Textarea 
                     id="message" 
                     name="message"
@@ -100,7 +102,7 @@ export default function ExportInquiry() {
                   />
                 </div>
                 <Button type="submit" className="w-full" data-testid="button-submit">
-                  Submit Inquiry
+                  {t('exportInquiry.form.submitButton')}
                 </Button>
               </form>
             </CardContent>
@@ -112,9 +114,9 @@ export default function ExportInquiry() {
                 <div className="flex items-start gap-4 mb-4">
                   <Globe className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-global-title">Global Reach</h3>
+                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-global-title">{t('exportInquiry.globalReach.title')}</h3>
                     <p className="text-sm text-muted-foreground" data-testid="text-global-desc">
-                      Currently exporting to 24+ countries across Europe, Asia, and America. Experience in international logistics and customs.
+                      {t('exportInquiry.globalReach.description')}
                     </p>
                   </div>
                 </div>
@@ -126,11 +128,11 @@ export default function ExportInquiry() {
                 <div className="flex items-start gap-4 mb-4">
                   <Award className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-cert-title">Certifications</h3>
+                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-cert-title">{t('exportInquiry.certifications.title')}</h3>
                     <div className="flex flex-wrap gap-2 mt-3">
-                      <Badge variant="secondary">Organic Certified</Badge>
-                      <Badge variant="secondary">Fair Trade</Badge>
-                      <Badge variant="secondary">Rainforest Alliance</Badge>
+                      <Badge variant="secondary">{t('exportInquiry.certifications.organic')}</Badge>
+                      <Badge variant="secondary">{t('exportInquiry.certifications.fairTrade')}</Badge>
+                      <Badge variant="secondary">{t('exportInquiry.certifications.rainforest')}</Badge>
                     </div>
                   </div>
                 </div>
@@ -142,9 +144,9 @@ export default function ExportInquiry() {
                 <div className="flex items-start gap-4 mb-4">
                   <Ship className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-shipping-title">Shipping & MOQ</h3>
+                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-shipping-title">{t('exportInquiry.shipping.title')}</h3>
                     <p className="text-sm text-muted-foreground mb-2" data-testid="text-shipping-desc">
-                      Minimum order: 100kg. We work with reliable freight partners for sea and air shipping worldwide.
+                      {t('exportInquiry.shipping.description')}
                     </p>
                   </div>
                 </div>
@@ -153,11 +155,11 @@ export default function ExportInquiry() {
 
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="pt-6">
-                <p className="font-semibold mb-3" data-testid="text-contact-title">Direct Contact</p>
+                <p className="font-semibold mb-3" data-testid="text-contact-title">{t('exportInquiry.directContact.title')}</p>
                 <p className="text-sm mb-2" data-testid="text-email-sales">sales@ubuntucoffee.co.ug</p>
                 <p className="text-sm mb-3" data-testid="text-email-info">info@ubuntucoffee.co.ug</p>
-                <p className="text-sm mb-1" data-testid="text-phone-uganda">Uganda: +256 780240662</p>
-                <p className="text-sm" data-testid="text-phone-germany">Germany: +49 517645694259</p>
+                <p className="text-sm mb-1" data-testid="text-phone-uganda">{t('exportInquiry.directContact.uganda')}: +256 780240662</p>
+                <p className="text-sm" data-testid="text-phone-germany">{t('exportInquiry.directContact.germany')}: +49 517645694259</p>
               </CardContent>
             </Card>
           </div>

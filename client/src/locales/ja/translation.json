@@ -70,6 +70,58 @@
     "heroTitle": "お問い合わせ",
     "heroSubtitle": "ウガンダ最高のコーヒーをあなたの市場にもたらす準備はできていますか？会話を始めましょう"
   },
+  "farmers": {
+    "title": "農家の紹介",
+    "subtitle": "Ubuntuコーヒーの中心は、献身的な農家のコミュニティです",
+    "james": {
+      "name": "ジェームズ・ワッスワ",
+      "role": "主任農家、エルゴン山地域",
+      "quote": "Ubuntuコーヒーは私たちのコミュニティを変えました。フェアトレードは、私の子供たちが学校に通え、より良い農業実践に投資できることを意味します。"
+    },
+    "sarah": {
+      "name": "サラ・ナカト",
+      "role": "協同組合リーダー",
+      "quote": "協同組合として協力することで、持続可能な方法を学び、有機認証を取得しました。ウガンダ最高のコーヒーを世界と共有できることを誇りに思います。"
+    },
+    "stats": {
+      "farmers": "小規模農家",
+      "cooperatives": "協同組合パートナーシップ",
+      "organic": "有機認証",
+      "countries": "輸出国"
+    }
+  },
+  "exportInquiry": {
+    "title": "輸出のお問い合わせ",
+    "subtitle": "ウガンダ最高のコーヒーをあなたの市場に。卸売および輸出パートナーシップについてお問い合わせください。",
+    "form": {
+      "title": "お問い合わせ",
+      "companyLabel": "会社名 *",
+      "countryLabel": "国 *",
+      "emailLabel": "メールアドレス *",
+      "volumeLabel": "予想数量（kg/月）",
+      "messageLabel": "メッセージ",
+      "submitButton": "お問い合わせを送信"
+    },
+    "globalReach": {
+      "title": "グローバルリーチ",
+      "description": "現在、ヨーロッパ、アジア、アメリカの24カ国以上に輸出しています。国際物流と税関に関する経験があります。"
+    },
+    "certifications": {
+      "title": "認証",
+      "organic": "有機認証",
+      "fairTrade": "フェアトレード",
+      "rainforest": "レインフォレスト・アライアンス"
+    },
+    "shipping": {
+      "title": "配送と最小注文量",
+      "description": "最小注文：100kg。海上および航空輸送のための信頼できる貨物パートナーと協力しています。"
+    },
+    "directContact": {
+      "title": "直接連絡",
+      "uganda": "ウガンダ",
+      "germany": "ドイツ"
+    }
+  },
   "footer": {
     "brand": "ウブントゥコーヒー",
     "tagline": "ウガンダ - アフリカの真珠",
