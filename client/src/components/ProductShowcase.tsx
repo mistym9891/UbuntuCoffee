@@ -5,47 +5,37 @@ import lightRoastImage from "@assets/generated_images/Uniform_light_roast_premiu
 import mediumRoastImage from "@assets/generated_images/Uniform_medium_roast_premium_1ec7e031.png";
 import darkRoastImage from "@assets/generated_images/Uniform_dark_roast_premium_baa3af8a.png";
 import { useLocation } from "wouter";
-
-const roastProfiles = [
-  {
-    name: "Light Roast",
-    weight: "500g",
-    tagline: "Bright & Vibrant",
-    notes: ["Floral", "Citrus", "Tea-like"],
-    description: "Delicate flavors with a smooth, clean finish",
-    image: lightRoastImage
-  },
-  {
-    name: "Medium Roast",
-    weight: "500g",
-    tagline: "Balanced & Rich",
-    notes: ["Chocolate", "Caramel", "Balanced"],
-    description: "Perfect harmony of acidity and body",
-    featured: true,
-    image: mediumRoastImage
-  },
-  {
-    name: "Dark Roast",
-    weight: "500g",
-    tagline: "Bold & Intense",
-    notes: ["Bold", "Smoky", "Rich"],
-    description: "Full-bodied with deep, complex flavors",
-    image: darkRoastImage
-  }
-];
+import { useTranslation } from "react-i18next";
 
 export default function ProductShowcase() {
+  const { t } = useTranslation();
   const [, setLocation] = useLocation();
+  
+  const roastProfiles = [
+    {
+      key: "lightRoast",
+      image: lightRoastImage
+    },
+    {
+      key: "mediumRoast",
+      featured: true,
+      image: mediumRoastImage
+    },
+    {
+      key: "darkRoast",
+      image: darkRoastImage
+    }
+  ];
   
   return (
     <section className="py-20 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-5xl md:text-6xl font-bold text-foreground mb-6" data-testid="text-products-title">
-            Our Coffee
+            {t('products.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="text-products-subtitle">
-            From the volcanic highlands of Uganda to your cup — Experience the finest Ugandan Arabica, carefully roasted to perfection
+            {t('products.subtitle')}
           </p>
         </div>
 
@@ -55,7 +45,7 @@ export default function ProductShowcase() {
               <div className="h-96 overflow-hidden bg-gradient-to-b from-background/50 to-card p-6 flex items-center justify-center">
                 <img 
                   src={roast.image} 
-                  alt={roast.name}
+                  alt={t(`products.${roast.key}.name`)}
                   className="w-full h-full object-contain"
                   data-testid={`img-roast-${index}`}
                 />
@@ -63,27 +53,27 @@ export default function ProductShowcase() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-serif text-2xl font-bold text-card-foreground" data-testid={`text-roast-name-${index}`}>
-                    {roast.name}
+                    {t(`products.${roast.key}.name`)}
                   </h3>
                   {roast.featured && (
-                    <Badge variant="default" data-testid={`badge-featured-${index}`}>Featured</Badge>
+                    <Badge variant="default" data-testid={`badge-featured-${index}`}>{t('products.featured')}</Badge>
                   )}
                 </div>
                 <p className="font-accent text-lg italic text-primary mb-3" data-testid={`text-roast-tagline-${index}`}>
-                  {roast.tagline}
+                  {t(`products.${roast.key}.tagline`)}
                 </p>
                 <p className="text-sm text-muted-foreground mb-4" data-testid={`text-roast-desc-${index}`}>
-                  {roast.description}
+                  {t(`products.${roast.key}.description`)}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {roast.notes.map((note, i) => (
+                  {(t(`products.${roast.key}.notes`, { returnObjects: true }) as string[]).map((note, i) => (
                     <Badge key={i} variant="secondary" data-testid={`badge-note-${index}-${i}`}>
                       {note}
                     </Badge>
                   ))}
                 </div>
                 <p className="text-lg font-semibold text-foreground" data-testid={`text-weight-${index}`}>
-                  {roast.weight}
+                  {t(`products.${roast.key}.weight`)}
                 </p>
               </CardContent>
               <CardFooter>
@@ -93,7 +83,7 @@ export default function ProductShowcase() {
                   onClick={() => setLocation('/contact')}
                   data-testid={`button-sample-${index}`}
                 >
-                  Request Sample
+                  {t('products.requestSample')}
                 </Button>
               </CardFooter>
             </Card>

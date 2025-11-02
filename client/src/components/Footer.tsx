@@ -4,8 +4,10 @@ import { Instagram, Facebook, Linkedin } from "lucide-react";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useState } from "react";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -20,48 +22,48 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <img src={logoSymbol} alt="Ubuntu Coffee" className="w-16 h-16 mb-4 object-contain" data-testid="img-footer-logo" />
-            <h3 className="font-serif text-xl font-bold text-foreground mb-2" data-testid="text-footer-brand">UBUNTU COFFEE</h3>
+            <h3 className="font-serif text-xl font-bold text-foreground mb-2" data-testid="text-footer-brand">{t('footer.brand')}</h3>
             <p className="text-sm text-muted-foreground mb-4" data-testid="text-footer-tagline">
-              Uganda - Pearl of Africa
+              {t('footer.tagline')}
             </p>
             <p className="text-sm text-muted-foreground" data-testid="text-footer-stats">
-              Exporting to 24+ countries
+              {t('footer.stats')}
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-products-heading">Products</h4>
+            <h4 className="font-semibold text-foreground mb-4" data-testid="text-products-heading">{t('footer.productsHeading')}</h4>
             <ul className="space-y-2">
-              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-light-roast">Light Roast</Link></li>
-              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-medium-roast">Medium Roast</Link></li>
-              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-dark-roast">Dark Roast</Link></li>
-              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sample-pack">Sample Pack</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-light-roast">{t('footer.lightRoast')}</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-medium-roast">{t('footer.mediumRoast')}</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-dark-roast">{t('footer.darkRoast')}</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sample-pack">{t('footer.samplePack')}</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-about-heading">About Ubuntu</h4>
+            <h4 className="font-semibold text-foreground mb-4" data-testid="text-about-heading">{t('footer.aboutHeading')}</h4>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-our-story">Our Story</Link></li>
-              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-farmers">Our Farmers</Link></li>
-              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sustainability">Sustainability</Link></li>
-              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-certifications">Certifications</Link></li>
+              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-our-story">{t('footer.ourStory')}</Link></li>
+              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-farmers">{t('footer.farmers')}</Link></li>
+              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sustainability">{t('footer.sustainability')}</Link></li>
+              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-certifications">{t('footer.certifications')}</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4" data-testid="text-newsletter-heading">Join the Ubuntu Community</h4>
+            <h4 className="font-semibold text-foreground mb-4" data-testid="text-newsletter-heading">{t('footer.newsletterHeading')}</h4>
             <form onSubmit={handleNewsletterSubmit} className="mb-4">
               <div className="flex gap-2">
                 <Input 
                   type="email" 
-                  placeholder="Your email" 
+                  placeholder={t('footer.emailPlaceholder')} 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                   data-testid="input-newsletter"
                 />
-                <Button type="submit" data-testid="button-newsletter">Join</Button>
+                <Button type="submit" data-testid="button-newsletter">{t('footer.joinButton')}</Button>
               </div>
             </form>
             <div className="flex gap-4">
@@ -80,11 +82,11 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground" data-testid="text-copyright">
-            © 2025 Ubuntu Coffee. All rights reserved.
+            {t('footer.copyright')}
           </p>
           <div className="flex gap-6">
-            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">Privacy Policy</Link>
-            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-terms">Terms of Service</Link>
+            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">{t('footer.privacy')}</Link>
+            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-terms">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>

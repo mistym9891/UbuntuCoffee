@@ -3,8 +3,10 @@ import { ChevronDown } from "lucide-react";
 import heroImage from "@assets/generated_images/Natural_hero_plantation_photo_ee93ba44.png";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useLocation } from "wouter";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+  const { t } = useTranslation();
   const [, setLocation] = useLocation();
   
   const scrollToContent = () => {
@@ -29,20 +31,20 @@ export default function Hero() {
         />
         
         <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6 leading-tight" data-testid="text-hero-title">
-          UBUNTU COFFEE
+          {t('hero.title')}
         </h1>
         
         <p className="font-accent text-2xl md:text-3xl italic text-white/95 mb-4" data-testid="text-tagline">
-          From Uganda's Highlands to Your Cup — Life is Richer When Shared
+          {t('hero.tagline')}
         </p>
         
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-subtitle">
-          Premium 100% Arabica Coffee | Ethically Sourced | Globally Loved
+          {t('hero.subtitle')}
         </p>
         
         <div className="inline-block mb-8 px-6 py-3 bg-primary/90 backdrop-blur-md rounded-full border-2 border-primary-foreground/20">
           <p className="text-white font-semibold text-sm md:text-base" data-testid="badge-farmer-support">
-            Buy & Support Small Local Farmer Development in Ugandan Villages
+            {t('hero.farmerSupport')}
           </p>
         </div>
         
@@ -53,7 +55,7 @@ export default function Hero() {
             onClick={() => setLocation('/coffee')}
             data-testid="button-explore"
           >
-            Explore Our Coffee
+            {t('hero.exploreButton')}
           </Button>
           <Button 
             size="lg"
@@ -62,7 +64,7 @@ export default function Hero() {
             onClick={() => setLocation('/contact')}
             data-testid="button-inquiry"
           >
-            Export Inquiry
+            {t('hero.inquiryButton')}
           </Button>
         </div>
       </div>

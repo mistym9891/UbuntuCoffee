@@ -4,31 +4,29 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, Users, Heart, Recycle } from "lucide-react";
 import cooperationImage from "@assets/generated_images/Farmer_community_cooperation_scene_0b198f98.png";
-
-const sustainabilityPillars = [
-  {
-    icon: Leaf,
-    title: "Environmental Stewardship",
-    description: "100% organic farming practices, shade-grown coffee preserving biodiversity, and water conservation methods protecting local ecosystems."
-  },
-  {
-    icon: Users,
-    title: "Fair Trade & Community",
-    description: "Direct partnerships with 500+ smallholder farmers, fair wages above market rates, and investment in community education and infrastructure."
-  },
-  {
-    icon: Heart,
-    title: "Social Impact",
-    description: "Healthcare programs for farming families, educational scholarships for children, and women's empowerment initiatives in rural communities."
-  },
-  {
-    icon: Recycle,
-    title: "Sustainable Packaging",
-    description: "Recyclable materials, biodegradable components, and reduced carbon footprint in our supply chain from farm to consumer."
-  }
-];
+import { useTranslation } from "react-i18next";
 
 export default function Sustainability() {
+  const { t } = useTranslation();
+  
+  const sustainabilityPillars = [
+    {
+      icon: Leaf,
+      key: "environmental"
+    },
+    {
+      icon: Users,
+      key: "fairTrade"
+    },
+    {
+      icon: Heart,
+      key: "social"
+    },
+    {
+      icon: Recycle,
+      key: "packaging"
+    }
+  ];
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -36,10 +34,10 @@ export default function Sustainability() {
         <section className="py-20 px-6 bg-background text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="font-serif text-5xl md:text-6xl font-bold text-foreground mb-6" data-testid="text-sustainability-hero-title">
-              Sustainability & Fair Trade
+              {t('sustainability.heroTitle')}
             </h1>
             <p className="text-xl text-muted-foreground mb-8" data-testid="text-sustainability-hero-subtitle">
-              Building a better future through ethical sourcing and environmental responsibility
+              {t('sustainability.heroSubtitle')}
             </p>
           </div>
         </section>
@@ -57,13 +55,13 @@ export default function Sustainability() {
               </div>
               <div>
                 <h2 className="font-serif text-4xl font-bold text-card-foreground mb-6" data-testid="text-mission-title">
-                  Our Mission
+                  {t('sustainability.missionTitle')}
                 </h2>
                 <p className="text-lg text-foreground mb-4" data-testid="text-mission-desc">
-                  At Ubuntu Coffee, sustainability isn't just a buzzword — it's the foundation of everything we do. Inspired by the African philosophy of Ubuntu ("I am because we are"), we believe that our success is intrinsically linked to the wellbeing of our farmers, their communities, and the environment.
+                  {t('sustainability.missionDesc1')}
                 </p>
                 <p className="text-lg text-foreground" data-testid="text-mission-desc-2">
-                  Every bag of Ubuntu Coffee represents a commitment to ethical practices, environmental conservation, and the empowerment of Ugandan coffee farming communities.
+                  {t('sustainability.missionDesc2')}
                 </p>
               </div>
             </div>
@@ -78,10 +76,10 @@ export default function Sustainability() {
                       </div>
                       <div>
                         <h3 className="font-serif text-xl font-bold text-card-foreground mb-3" data-testid={`text-pillar-title-${index}`}>
-                          {pillar.title}
+                          {t(`sustainability.pillars.${pillar.key}.title`)}
                         </h3>
                         <p className="text-sm text-muted-foreground" data-testid={`text-pillar-desc-${index}`}>
-                          {pillar.description}
+                          {t(`sustainability.pillars.${pillar.key}.description`)}
                         </p>
                       </div>
                     </div>
