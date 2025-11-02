@@ -1,9 +1,9 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import lightRoastImage from "@assets/generated_images/Premium_light_roast_Ubuntu_9f03d43a.png";
-import mediumRoastImage from "@assets/generated_images/Premium_medium_roast_Ubuntu_bc436911.png";
-import darkRoastImage from "@assets/generated_images/Premium_dark_roast_Ubuntu_7845d9be.png";
+import lightRoastImage from "@assets/generated_images/Uniform_light_roast_premium_bacd18bd.png";
+import mediumRoastImage from "@assets/generated_images/Uniform_medium_roast_premium_1ec7e031.png";
+import darkRoastImage from "@assets/generated_images/Uniform_dark_roast_premium_baa3af8a.png";
 
 const roastProfiles = [
   {

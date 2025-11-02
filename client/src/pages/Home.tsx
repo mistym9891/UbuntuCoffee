@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import StorySection from "@/components/StorySection";
 import ProductShowcase from "@/components/ProductShowcase";
 import CoffeeJourney from "@/components/CoffeeJourney";
+import JourneyDetails from "@/components/JourneyDetails";
 import TastingNotes from "@/components/TastingNotes";
 import MadeInUganda from "@/components/MadeInUganda";
 import Gallery from "@/components/Gallery";
@@ -18,6 +19,7 @@ export default function Home() {
       <StorySection />
       <ProductShowcase />
       <CoffeeJourney />
+      <JourneyDetails />
       <TastingNotes />
       <MadeInUganda />
       <Gallery />
