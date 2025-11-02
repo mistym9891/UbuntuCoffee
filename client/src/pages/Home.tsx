@@ -4,6 +4,7 @@ import StorySection from "@/components/StorySection";
 import ProductShowcase from "@/components/ProductShowcase";
 import CoffeeJourney from "@/components/CoffeeJourney";
 import TastingNotes from "@/components/TastingNotes";
+import Gallery from "@/components/Gallery";
 import GlobalMarkets from "@/components/GlobalMarkets";
 import Reviews from "@/components/Reviews";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ export default function Home() {
       <ProductShowcase />
       <CoffeeJourney />
       <TastingNotes />
+      <Gallery />
       <GlobalMarkets />
       <Reviews />
       <Footer />
