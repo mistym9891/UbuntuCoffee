@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "coffee": "Coffee",
+    "sustainability": "Sustainability",
+    "contact": "Contact",
+    "orderExport": "Order Export"
+  },
+  "hero": {
+    "title": "UBUNTU COFFEE",
+    "tagline": "From Uganda's Highlands to Your Cup — Life is Richer When Shared",
+    "subtitle": "Premium 100% Arabica Coffee | Ethically Sourced | Globally Loved",
+    "farmerSupport": "Buy & Support Small Local Farmer Development in Ugandan Villages",
+    "exploreButton": "Explore Our Coffee",
+    "inquiryButton": "Export Inquiry"
+  },
+  "products": {
+    "title": "Our Coffee",
+    "subtitle": "From the volcanic highlands of Uganda to your cup — Experience the finest Ugandan Arabica, carefully roasted to perfection",
+    "featured": "Featured",
+    "requestSample": "Request Sample",
+    "lightRoast": {
+      "name": "Light Roast",
+      "weight": "500g",
+      "tagline": "Bright & Vibrant",
+      "description": "Delicate flavors with a smooth, clean finish",
+      "notes": ["Floral", "Citrus", "Tea-like"]
+    },
+    "mediumRoast": {
+      "name": "Medium Roast",
+      "weight": "500g",
+      "tagline": "Balanced & Rich",
+      "description": "Perfect harmony of acidity and body",
+      "notes": ["Chocolate", "Caramel", "Balanced"]
+    },
+    "darkRoast": {
+      "name": "Dark Roast",
+      "weight": "500g",
+      "tagline": "Bold & Intense",
+      "description": "Full-bodied with deep, complex flavors",
+      "notes": ["Bold", "Smoky", "Rich"]
+    }
+  },
+  "sustainability": {
+    "heroTitle": "Sustainability & Fair Trade",
+    "heroSubtitle": "Building a better future through ethical sourcing and environmental responsibility",
+    "missionTitle": "Our Mission",
+    "missionDesc1": "At Ubuntu Coffee, sustainability isn't just a buzzword — it's the foundation of everything we do. Inspired by the African philosophy of Ubuntu (\"I am because we are\"), we believe that our success is intrinsically linked to the wellbeing of our farmers, their communities, and the environment.",
+    "missionDesc2": "Every bag of Ubuntu Coffee represents a commitment to ethical practices, environmental conservation, and the empowerment of Ugandan coffee farming communities.",
+    "pillars": {
+      "environmental": {
+        "title": "Environmental Stewardship",
+        "description": "100% organic farming practices, shade-grown coffee preserving biodiversity, and water conservation methods protecting local ecosystems."
+      },
+      "fairTrade": {
+        "title": "Fair Trade & Community",
+        "description": "Direct partnerships with 500+ smallholder farmers, fair wages above market rates, and investment in community education and infrastructure."
+      },
+      "social": {
+        "title": "Social Impact",
+        "description": "Healthcare programs for farming families, educational scholarships for children, and women's empowerment initiatives in rural communities."
+      },
+      "packaging": {
+        "title": "Sustainable Packaging",
+        "description": "Recyclable materials, biodegradable components, and reduced carbon footprint in our supply chain from farm to consumer."
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "Contact Us",
+    "heroSubtitle": "Ready to bring Uganda's finest coffee to your market? Let's start a conversation"
+  },
+  "footer": {
+    "brand": "UBUNTU COFFEE",
+    "tagline": "Uganda - Pearl of Africa",
+    "stats": "Exporting to 24+ countries",
+    "productsHeading": "Products",
+    "lightRoast": "Light Roast",
+    "mediumRoast": "Medium Roast",
+    "darkRoast": "Dark Roast",
+    "samplePack": "Sample Pack",
+    "aboutHeading": "About Ubuntu",
+    "ourStory": "Our Story",
+    "farmers": "Our Farmers",
+    "sustainability": "Sustainability",
+    "certifications": "Certifications",
+    "newsletterHeading": "Join the Ubuntu Community",
+    "emailPlaceholder": "Your email",
+    "joinButton": "Join",
+    "copyright": "© 2025 Ubuntu Coffee. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "首页",
+    "coffee": "咖啡",
+    "sustainability": "可持续发展",
+    "contact": "联系我们",
+    "orderExport": "出口订购"
+  },
+  "hero": {
+    "title": "乌班图咖啡",
+    "tagline": "从乌干达高地到您的杯中 — 共享让生活更加丰富",
+    "subtitle": "优质100%阿拉比卡咖啡 | 道德采购 | 全球喜爱",
+    "farmerSupport": "购买并支持乌干达村庄小型当地农民的发展",
+    "exploreButton": "探索我们的咖啡",
+    "inquiryButton": "出口咨询"
+  },
+  "products": {
+    "title": "我们的咖啡",
+    "subtitle": "从乌干达火山高地到您的杯中 — 体验最优质的乌干达阿拉比卡，精心烘焙至完美",
+    "featured": "特色",
+    "requestSample": "申请样品",
+    "lightRoast": {
+      "name": "浅度烘焙",
+      "weight": "500克",
+      "tagline": "明亮清新",
+      "description": "细腻的风味，顺滑清爽的余味",
+      "notes": ["花香", "柑橘", "茶香"]
+    },
+    "mediumRoast": {
+      "name": "中度烘焙",
+      "weight": "500克",
+      "tagline": "均衡醇厚",
+      "description": "酸度和醇度的完美和谐",
+      "notes": ["巧克力", "焦糖", "均衡"]
+    },
+    "darkRoast": {
+      "name": "深度烘焙",
+      "weight": "500克",
+      "tagline": "浓郁强烈",
+      "description": "醇厚饱满，风味深邃复杂",
+      "notes": ["浓郁", "烟熏", "醇厚"]
+    }
+  },
+  "sustainability": {
+    "heroTitle": "可持续发展与公平贸易",
+    "heroSubtitle": "通过道德采购和环境责任建设更美好的未来",
+    "missionTitle": "我们的使命",
+    "missionDesc1": "在乌班图咖啡，可持续发展不仅仅是一个流行词 — 它是我们所做一切的基础。受非洲乌班图哲学（\"我在故我们在\"）的启发，我们相信我们的成功与农民、他们的社区和环境的福祉密不可分。",
+    "missionDesc2": "每一袋乌班图咖啡都代表着对道德实践、环境保护和赋权乌干达咖啡种植社区的承诺。",
+    "pillars": {
+      "environmental": {
+        "title": "环境管理",
+        "description": "100%有机农业实践，荫生咖啡保护生物多样性，节水方法保护当地生态系统。"
+      },
+      "fairTrade": {
+        "title": "公平贸易与社区",
+        "description": "与500多名小农直接合作，高于市场价的公平工资，投资社区教育和基础设施。"
+      },
+      "social": {
+        "title": "社会影响",
+        "description": "为农民家庭提供医疗保健计划，为儿童提供教育奖学金，在农村社区开展妇女赋权倡议。"
+      },
+      "packaging": {
+        "title": "可持续包装",
+        "description": "可回收材料，可生物降解成分，从农场到消费者的供应链中减少碳足迹。"
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "联系我们",
+    "heroSubtitle": "准备好将乌干达最好的咖啡带到您的市场了吗？让我们开始对话"
+  },
+  "footer": {
+    "brand": "乌班图咖啡",
+    "tagline": "乌干达 - 非洲明珠",
+    "stats": "出口到24个以上国家",
+    "productsHeading": "产品",
+    "lightRoast": "浅度烘焙",
+    "mediumRoast": "中度烘焙",
+    "darkRoast": "深度烘焙",
+    "samplePack": "样品套装",
+    "aboutHeading": "关于乌班图",
+    "ourStory": "我们的故事",
+    "farmers": "我们的农民",
+    "sustainability": "可持续发展",
+    "certifications": "认证",
+    "newsletterHeading": "加入乌班图社区",
+    "emailPlaceholder": "您的邮箱",
+    "joinButton": "加入",
+    "copyright": "© 2025 乌班图咖啡。版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

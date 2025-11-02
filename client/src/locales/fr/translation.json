@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "coffee": "Café",
+    "sustainability": "Durabilité",
+    "contact": "Contact",
+    "orderExport": "Commander Export"
+  },
+  "hero": {
+    "title": "UBUNTU COFFEE",
+    "tagline": "Des Hautes Terres de l'Ouganda à Votre Tasse — La Vie Est Plus Riche Quand Elle Est Partagée",
+    "subtitle": "Café Arabica 100% Premium | Sourcé Éthiquement | Aimé Mondialement",
+    "farmerSupport": "Achetez et Soutenez le Développement des Petits Agriculteurs Locaux dans les Villages Ougandais",
+    "exploreButton": "Découvrir Notre Café",
+    "inquiryButton": "Demande d'Exportation"
+  },
+  "products": {
+    "title": "Notre Café",
+    "subtitle": "Des hautes terres volcaniques de l'Ouganda à votre tasse — Découvrez le meilleur Arabica ougandais, torréfié avec soin",
+    "featured": "Vedette",
+    "requestSample": "Demander un Échantillon",
+    "lightRoast": {
+      "name": "Torréfaction Claire",
+      "weight": "500g",
+      "tagline": "Lumineux & Vibrant",
+      "description": "Saveurs délicates avec une finale douce et propre",
+      "notes": ["Floral", "Agrumes", "Théière"]
+    },
+    "mediumRoast": {
+      "name": "Torréfaction Moyenne",
+      "weight": "500g",
+      "tagline": "Équilibré & Riche",
+      "description": "Harmonie parfaite d'acidité et de corps",
+      "notes": ["Chocolat", "Caramel", "Équilibré"]
+    },
+    "darkRoast": {
+      "name": "Torréfaction Foncée",
+      "weight": "500g",
+      "tagline": "Audacieux & Intense",
+      "description": "Corsé avec des saveurs profondes et complexes",
+      "notes": ["Audacieux", "Fumé", "Riche"]
+    }
+  },
+  "sustainability": {
+    "heroTitle": "Durabilité & Commerce Équitable",
+    "heroSubtitle": "Construire un avenir meilleur grâce à un approvisionnement éthique et à la responsabilité environnementale",
+    "missionTitle": "Notre Mission",
+    "missionDesc1": "Chez Ubuntu Coffee, la durabilité n'est pas qu'un mot à la mode — c'est le fondement de tout ce que nous faisons. Inspirés par la philosophie africaine d'Ubuntu (\"Je suis parce que nous sommes\"), nous croyons que notre succès est intrinsèquement lié au bien-être de nos agriculteurs, de leurs communautés et de l'environnement.",
+    "missionDesc2": "Chaque sac d'Ubuntu Coffee représente un engagement envers des pratiques éthiques, la conservation de l'environnement et l'autonomisation des communautés caféières ougandaises.",
+    "pillars": {
+      "environmental": {
+        "title": "Gestion Environnementale",
+        "description": "Pratiques agricoles 100% biologiques, café cultivé à l'ombre préservant la biodiversité et méthodes de conservation de l'eau protégeant les écosystèmes locaux."
+      },
+      "fairTrade": {
+        "title": "Commerce Équitable & Communauté",
+        "description": "Partenariats directs avec plus de 500 petits agriculteurs, salaires équitables supérieurs aux taux du marché et investissement dans l'éducation et les infrastructures communautaires."
+      },
+      "social": {
+        "title": "Impact Social",
+        "description": "Programmes de soins de santé pour les familles d'agriculteurs, bourses d'études pour les enfants et initiatives d'autonomisation des femmes dans les communautés rurales."
+      },
+      "packaging": {
+        "title": "Emballage Durable",
+        "description": "Matériaux recyclables, composants biodégradables et empreinte carbone réduite dans notre chaîne d'approvisionnement de la ferme au consommateur."
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "Contactez-Nous",
+    "heroSubtitle": "Prêt à apporter le meilleur café ougandais sur votre marché ? Commençons une conversation"
+  },
+  "footer": {
+    "brand": "UBUNTU COFFEE",
+    "tagline": "Ouganda - Perle de l'Afrique",
+    "stats": "Exportation vers plus de 24 pays",
+    "productsHeading": "Produits",
+    "lightRoast": "Torréfaction Claire",
+    "mediumRoast": "Torréfaction Moyenne",
+    "darkRoast": "Torréfaction Foncée",
+    "samplePack": "Pack d'Échantillons",
+    "aboutHeading": "À Propos d'Ubuntu",
+    "ourStory": "Notre Histoire",
+    "farmers": "Nos Agriculteurs",
+    "sustainability": "Durabilité",
+    "certifications": "Certifications",
+    "newsletterHeading": "Rejoignez la Communauté Ubuntu",
+    "emailPlaceholder": "Votre email",
+    "joinButton": "Rejoindre",
+    "copyright": "© 2025 Ubuntu Coffee. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}

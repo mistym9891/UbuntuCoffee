@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "coffee": "Kaffee",
+    "sustainability": "Nachhaltigkeit",
+    "contact": "Kontakt",
+    "orderExport": "Export Bestellen"
+  },
+  "hero": {
+    "title": "UBUNTU COFFEE",
+    "tagline": "Aus Ugandas Hochland in Ihre Tasse — Das Leben Ist Reicher, Wenn Es Geteilt Wird",
+    "subtitle": "Premium 100% Arabica Kaffee | Ethisch Bezogen | Global Geliebt",
+    "farmerSupport": "Kaufen & Unterstützen Sie die Entwicklung Kleiner Lokaler Bauern in Ugandischen Dörfern",
+    "exploreButton": "Unseren Kaffee Entdecken",
+    "inquiryButton": "Exportanfrage"
+  },
+  "products": {
+    "title": "Unser Kaffee",
+    "subtitle": "Aus dem vulkanischen Hochland Ugandas in Ihre Tasse — Erleben Sie den feinsten ugandischen Arabica, sorgfältig geröstet",
+    "featured": "Empfohlen",
+    "requestSample": "Probe Anfordern",
+    "lightRoast": {
+      "name": "Helle Röstung",
+      "weight": "500g",
+      "tagline": "Hell & Lebhaft",
+      "description": "Zarte Aromen mit einem sanften, klaren Abgang",
+      "notes": ["Blumig", "Zitrus", "Teeähnlich"]
+    },
+    "mediumRoast": {
+      "name": "Mittlere Röstung",
+      "weight": "500g",
+      "tagline": "Ausgewogen & Reich",
+      "description": "Perfekte Harmonie von Säure und Körper",
+      "notes": ["Schokolade", "Karamell", "Ausgewogen"]
+    },
+    "darkRoast": {
+      "name": "Dunkle Röstung",
+      "weight": "500g",
+      "tagline": "Kräftig & Intensiv",
+      "description": "Vollmundig mit tiefen, komplexen Aromen",
+      "notes": ["Kräftig", "Rauchig", "Reich"]
+    }
+  },
+  "sustainability": {
+    "heroTitle": "Nachhaltigkeit & Fairer Handel",
+    "heroSubtitle": "Eine bessere Zukunft durch ethische Beschaffung und Umweltverantwortung aufbauen",
+    "missionTitle": "Unsere Mission",
+    "missionDesc1": "Bei Ubuntu Coffee ist Nachhaltigkeit nicht nur ein Schlagwort — sie ist die Grundlage von allem, was wir tun. Inspiriert von der afrikanischen Philosophie Ubuntu (\"Ich bin, weil wir sind\"), glauben wir, dass unser Erfolg untrennbar mit dem Wohlergehen unserer Bauern, ihrer Gemeinschaften und der Umwelt verbunden ist.",
+    "missionDesc2": "Jede Tüte Ubuntu Coffee steht für ein Engagement für ethische Praktiken, Umweltschutz und die Stärkung ugandischer Kaffeeanbaugemeinschaften.",
+    "pillars": {
+      "environmental": {
+        "title": "Umweltschutz",
+        "description": "100% ökologische Anbaumethoden, schattengewachsener Kaffee zur Erhaltung der Biodiversität und Wasserschutzmethoden zum Schutz lokaler Ökosysteme."
+      },
+      "fairTrade": {
+        "title": "Fairer Handel & Gemeinschaft",
+        "description": "Direkte Partnerschaften mit über 500 Kleinbauern, faire Löhne über Marktniveau und Investitionen in Bildung und Infrastruktur der Gemeinschaft."
+      },
+      "social": {
+        "title": "Soziale Auswirkungen",
+        "description": "Gesundheitsprogramme für Bauernfamilien, Bildungsstipendien für Kinder und Initiativen zur Stärkung von Frauen in ländlichen Gemeinschaften."
+      },
+      "packaging": {
+        "title": "Nachhaltige Verpackung",
+        "description": "Recycelbare Materialien, biologisch abbaubare Komponenten und reduzierter CO2-Fußabdruck in unserer Lieferkette vom Bauernhof zum Verbraucher."
+      }
+    }
+  },
+  "contact": {
+    "heroTitle": "Kontaktieren Sie Uns",
+    "heroSubtitle": "Bereit, Ugandas besten Kaffee auf Ihren Markt zu bringen? Lassen Sie uns ins Gespräch kommen"
+  },
+  "footer": {
+    "brand": "UBUNTU COFFEE",
+    "tagline": "Uganda - Perle Afrikas",
+    "stats": "Export in über 24 Länder",
+    "productsHeading": "Produkte",
+    "lightRoast": "Helle Röstung",
+    "mediumRoast": "Mittlere Röstung",
+    "darkRoast": "Dunkle Röstung",
+    "samplePack": "Probenpaket",
+    "aboutHeading": "Über Ubuntu",
+    "ourStory": "Unsere Geschichte",
+    "farmers": "Unsere Bauern",
+    "sustainability": "Nachhaltigkeit",
+    "certifications": "Zertifizierungen",
+    "newsletterHeading": "Treten Sie der Ubuntu-Gemeinschaft Bei",
+    "emailPlaceholder": "Ihre E-Mail",
+    "joinButton": "Beitreten",
+    "copyright": "© 2025 Ubuntu Coffee. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}
