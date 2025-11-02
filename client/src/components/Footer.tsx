@@ -1,7 +1,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Instagram, Facebook, Linkedin } from "lucide-react";
-import logoSymbol from "@assets/generated_images/Split_bean_sun_logo_exact_c0cf0787.png";
+import logoSymbol from "@assets/generated_images/Thick_rays_transparent_logo_adc37911.png";
 import { useState } from "react";
 
 export default function Footer() {
