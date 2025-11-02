@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Link, useLocation } from "wouter";
-import logoSymbol from "@assets/generated_images/Clean_transparent_bean_logo_b6f63fe4.png";
+import logoSymbol from "@assets/generated_images/Final_transparent_logo_575e4a24.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
