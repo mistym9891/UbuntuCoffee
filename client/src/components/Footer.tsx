@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Instagram, Facebook, Linkedin } from "lucide-react";
 import logoSymbol from "@assets/generated_images/Pure_transparent_alpha_logo_8df46b86.png";
 import { useState } from "react";
+import { Link } from "wouter";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -31,20 +32,20 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-foreground mb-4" data-testid="text-products-heading">Products</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-light-roast">Light Roast</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-medium-roast">Medium Roast</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-dark-roast">Dark Roast</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sample-pack">Sample Pack</a></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-light-roast">Light Roast</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-medium-roast">Medium Roast</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-dark-roast">Dark Roast</Link></li>
+              <li><Link href="/coffee" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sample-pack">Sample Pack</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-foreground mb-4" data-testid="text-about-heading">About Ubuntu</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-our-story">Our Story</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-farmers">Our Farmers</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sustainability">Sustainability</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-certifications">Certifications</a></li>
+              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-our-story">Our Story</Link></li>
+              <li><Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-farmers">Our Farmers</Link></li>
+              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sustainability">Sustainability</Link></li>
+              <li><Link href="/sustainability" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-certifications">Certifications</Link></li>
             </ul>
           </div>
 
@@ -64,13 +65,13 @@ export default function Footer() {
               </div>
             </form>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Instagram" data-testid="link-instagram">
+              <a href="https://instagram.com/ubuntucoffee" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Instagram" data-testid="link-instagram">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Facebook" data-testid="link-facebook">
+              <a href="https://facebook.com/ubuntucoffee" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Facebook" data-testid="link-facebook">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn" data-testid="link-linkedin">
+              <a href="https://linkedin.com/company/ubuntucoffee" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn" data-testid="link-linkedin">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -82,8 +83,8 @@ export default function Footer() {
             © 2025 Ubuntu Coffee. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">Privacy Policy</a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-terms">Terms of Service</a>
+            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">Privacy Policy</Link>
+            <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-terms">Terms of Service</Link>
           </div>
         </div>
       </div>
