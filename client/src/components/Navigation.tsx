@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Link, useLocation } from "wouter";
-import Logo from "@/components/Logo";
+import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +42,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 cursor-pointer">
-            <Logo className="w-10 h-10" />
+            <img src={logoSymbol} alt="Ubuntu Coffee" className="w-10 h-10 object-contain" data-testid="img-nav-logo" />
             <span className={`font-serif font-bold text-lg ${isScrolled || !isHomePage ? "text-foreground" : "text-white"}`} data-testid="text-nav-brand">
               UBUNTU
             </span>

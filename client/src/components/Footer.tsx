@@ -1,7 +1,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Instagram, Facebook, Linkedin } from "lucide-react";
-import Logo from "@/components/Logo";
+import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useState } from "react";
 import { Link } from "wouter";
 
@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <Logo className="w-16 h-16 mb-4" />
+            <img src={logoSymbol} alt="Ubuntu Coffee" className="w-16 h-16 mb-4 object-contain" data-testid="img-footer-logo" />
             <h3 className="font-serif text-xl font-bold text-foreground mb-2" data-testid="text-footer-brand">UBUNTU COFFEE</h3>
             <p className="text-sm text-muted-foreground mb-4" data-testid="text-footer-tagline">
               Uganda - Pearl of Africa
