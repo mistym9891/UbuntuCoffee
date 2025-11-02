@@ -38,14 +38,14 @@ export default function ProductShowcase() {
   const [, setLocation] = useLocation();
   
   return (
-    <section className="py-20 px-6 bg-card">
+    <section className="py-20 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-card-foreground mb-4" data-testid="text-products-title">
+          <h2 className="font-serif text-5xl md:text-6xl font-bold text-foreground mb-6" data-testid="text-products-title">
             Our Coffee
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-products-subtitle">
-            Experience the finest Ugandan Arabica, carefully roasted to perfection
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="text-products-subtitle">
+            From the volcanic highlands of Uganda to your cup — Experience the finest Ugandan Arabica, carefully roasted to perfection
           </p>
         </div>
 
