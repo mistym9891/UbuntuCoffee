@@ -47,8 +47,8 @@ export default function JourneyDetails() {
     }
   ];
   return (
-    <section className="py-20 px-6 bg-card">
-      <div className="max-w-7xl mx-auto space-y-20">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-card">
+      <div className="max-w-7xl mx-auto space-y-12 sm:space-y-16 md:space-y-20">
         {journeyDetails.map((journey, index) => (
           <div 
             key={journey.id} 
@@ -57,8 +57,8 @@ export default function JourneyDetails() {
             data-testid={`section-${journey.id}`}
           >
             <Card className="overflow-hidden">
-              <div className={`grid md:grid-cols-2 gap-8 ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
-                <div className={`h-96 overflow-hidden ${index % 2 === 1 ? 'md:order-2' : ''}`}>
+              <div className={`grid md:grid-cols-2 gap-0 md:gap-8 ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
+                <div className={`h-56 sm:h-72 md:h-96 overflow-hidden ${index % 2 === 1 ? 'md:order-2' : ''}`}>
                   <img 
                     src={journey.image} 
                     alt={journey.title}
@@ -66,24 +66,24 @@ export default function JourneyDetails() {
                     data-testid={`img-detail-${index}`}
                   />
                 </div>
-                <CardContent className={`pt-8 flex flex-col justify-center ${index % 2 === 1 ? 'md:order-1' : ''}`}>
-                  <div className="font-serif text-6xl font-bold text-primary/20 mb-4" data-testid={`text-detail-number-${index}`}>
+                <CardContent className={`pt-6 sm:pt-8 pb-6 sm:pb-8 flex flex-col justify-center ${index % 2 === 1 ? 'md:order-1' : ''}`}>
+                  <div className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-primary/20 mb-3 sm:mb-4" data-testid={`text-detail-number-${index}`}>
                     {journey.number}
                   </div>
-                  <h3 className="font-serif text-3xl font-bold text-card-foreground mb-2" data-testid={`text-detail-title-${index}`}>
+                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-card-foreground mb-2" data-testid={`text-detail-title-${index}`}>
                     {journey.title}
                   </h3>
-                  <p className="text-lg text-primary font-semibold mb-4" data-testid={`text-detail-subtitle-${index}`}>
+                  <p className="text-base sm:text-lg text-primary font-semibold mb-3 sm:mb-4" data-testid={`text-detail-subtitle-${index}`}>
                     {journey.subtitle}
                   </p>
-                  <p className="text-foreground mb-6" data-testid={`text-detail-desc-${index}`}>
+                  <p className="text-sm sm:text-base text-foreground mb-4 sm:mb-6" data-testid={`text-detail-desc-${index}`}>
                     {journey.description}
                   </p>
                   <ul className="space-y-2">
                     {(journey.details as string[]).map((detail: string, i: number) => (
                       <li key={i} className="flex items-start gap-2" data-testid={`text-detail-point-${index}-${i}`}>
-                        <span className="text-primary mt-1">✓</span>
-                        <span className="text-sm text-muted-foreground">{detail}</span>
+                        <span className="text-primary mt-1 text-sm">✓</span>
+                        <span className="text-xs sm:text-sm text-muted-foreground">{detail}</span>
                       </li>
                     ))}
                   </ul>

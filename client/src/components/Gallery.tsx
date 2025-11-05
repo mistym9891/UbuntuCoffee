@@ -43,21 +43,21 @@ export default function Gallery() {
     }
   ];
   return (
-    <section className="py-20 px-6 bg-background">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4" data-testid="text-gallery-title">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4" data-testid="text-gallery-title">
             {t('gallery.title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-gallery-subtitle">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-2" data-testid="text-gallery-subtitle">
             {t('gallery.subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {galleryItems.map((item, index) => (
             <Card key={index} className="overflow-hidden hover-elevate transition-all" data-testid={`card-gallery-${index}`}>
-              <div className="h-64 overflow-hidden bg-muted">
+              <div className="h-56 sm:h-64 overflow-hidden bg-muted">
                 <img 
                   src={item.image} 
                   alt={item.title}
@@ -65,11 +65,11 @@ export default function Gallery() {
                   data-testid={`img-gallery-${index}`}
                 />
               </div>
-              <CardContent className="pt-6">
-                <h3 className="font-serif text-xl font-bold text-foreground mb-3" data-testid={`text-gallery-title-${index}`}>
+              <CardContent className="pt-4 sm:pt-6">
+                <h3 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3" data-testid={`text-gallery-title-${index}`}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-muted-foreground" data-testid={`text-gallery-desc-${index}`}>
+                <p className="text-xs sm:text-sm text-muted-foreground" data-testid={`text-gallery-desc-${index}`}>
                   {item.description}
                 </p>
               </CardContent>

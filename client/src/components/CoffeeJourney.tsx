@@ -46,18 +46,18 @@ export default function CoffeeJourney() {
   };
 
   return (
-    <section className="py-20 px-6 bg-background">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4" data-testid="text-journey-title">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4" data-testid="text-journey-title">
             {t('journey.title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-journey-subtitle">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-2" data-testid="text-journey-subtitle">
             {t('journey.subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {journeySteps.map((step, index) => (
             <Card 
               key={index} 
@@ -65,7 +65,7 @@ export default function CoffeeJourney() {
               onClick={() => handleStepClick(step.link)}
               data-testid={`card-step-${index}`}
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-40 sm:h-48 overflow-hidden">
                 <img 
                   src={step.image} 
                   alt={step.title}
@@ -73,11 +73,11 @@ export default function CoffeeJourney() {
                   data-testid={`img-step-${index}`}
                 />
               </div>
-              <CardContent className="pt-6">
-                <div className="font-serif text-5xl font-bold text-primary/20 mb-2" data-testid={`text-number-${index}`}>
+              <CardContent className="pt-4 sm:pt-6">
+                <div className="font-serif text-4xl sm:text-5xl font-bold text-primary/20 mb-2" data-testid={`text-number-${index}`}>
                   {step.number}
                 </div>
-                <h3 className="font-serif text-xl font-bold text-foreground mb-3" data-testid={`text-step-title-${index}`}>
+                <h3 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-2 sm:mb-3" data-testid={`text-step-title-${index}`}>
                   {step.title}
                 </h3>
                 <p className="text-sm text-muted-foreground" data-testid={`text-step-desc-${index}`}>

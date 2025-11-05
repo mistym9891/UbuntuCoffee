@@ -13,23 +13,23 @@ export default function TastingNotes() {
     { name: t('tasting.flavors.caramel.name'), intensity: 70, description: t('tasting.flavors.caramel.description') }
   ];
   return (
-    <section className="py-20 px-6 bg-card">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-card">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           <div>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-card-foreground mb-6" data-testid="text-tasting-title">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-card-foreground mb-4 sm:mb-6" data-testid="text-tasting-title">
               {t('tasting.title')}
             </h2>
-            <p className="text-lg text-foreground mb-8" data-testid="text-tasting-description">
+            <p className="text-base sm:text-lg text-foreground mb-6 sm:mb-8" data-testid="text-tasting-description">
               {t('tasting.description')}
             </p>
             
-            <div className="space-y-6">
+            <div className="space-y-5 sm:space-y-6">
               {flavorNotes.map((note, index) => (
                 <div key={index} data-testid={`flavor-${index}`}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-semibold text-foreground" data-testid={`text-flavor-name-${index}`}>{note.name}</span>
-                    <span className="text-sm text-muted-foreground" data-testid={`text-flavor-intensity-${index}`}>{note.intensity}%</span>
+                    <span className="font-semibold text-sm sm:text-base text-foreground" data-testid={`text-flavor-name-${index}`}>{note.name}</span>
+                    <span className="text-xs sm:text-sm text-muted-foreground" data-testid={`text-flavor-intensity-${index}`}>{note.intensity}%</span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2">
                     <div 
@@ -37,18 +37,18 @@ export default function TastingNotes() {
                       style={{ width: `${note.intensity}%` }}
                     />
                   </div>
-                  <p className="text-sm text-muted-foreground mt-1" data-testid={`text-flavor-desc-${index}`}>{note.description}</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground mt-1" data-testid={`text-flavor-desc-${index}`}>{note.description}</p>
                 </div>
               ))}
             </div>
 
-            <Card className="mt-8 bg-background border-border">
-              <CardContent className="pt-6">
-                <div className="flex items-start gap-4">
-                  <Coffee className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <Card className="mt-6 sm:mt-8 bg-background border-border">
+              <CardContent className="pt-4 sm:pt-6">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <Coffee className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2" data-testid="text-brewing-title">{t('tasting.brewing.title')}</h3>
-                    <p className="text-sm text-muted-foreground" data-testid="text-brewing-desc">
+                    <h3 className="font-semibold text-sm sm:text-base text-foreground mb-2" data-testid="text-brewing-title">{t('tasting.brewing.title')}</h3>
+                    <p className="text-xs sm:text-sm text-muted-foreground" data-testid="text-brewing-desc">
                       {t('tasting.brewing.description')}
                     </p>
                   </div>
@@ -57,7 +57,7 @@ export default function TastingNotes() {
             </Card>
           </div>
 
-          <div className="rounded-lg overflow-hidden">
+          <div className="rounded-lg overflow-hidden mt-8 lg:mt-0">
             <img 
               src={tastingImage} 
               alt="Coffee tasting" 
