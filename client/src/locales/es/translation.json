@@ -122,6 +122,284 @@
       "germany": "Alemania"
     }
   },
+  "story": {
+    "origin": {
+      "title": "Origen y Calidad",
+      "description": "Cultivado en las tierras altas brumosas de Uganda, donde el rico suelo volcánico nutre nuestros granos 100% Arábica. A altitudes que alcanzan los 1,800 metros en las laderas del monte Elgon, nuestras cerezas de café desarrollan sabores complejos y una calidad excepcional.",
+      "stats": {
+        "elevation": "Altitud",
+        "arabica": "Arábica",
+        "volcanicValue": "Volcánico",
+        "soil": "Suelo"
+      }
+    },
+    "ubuntu": {
+      "title": "Filosofía Ubuntu",
+      "quote": "Yo soy porque nosotros somos",
+      "description": "Inspirado por Ubuntu, nuestro café une a las personas—porque la vida es más rica cuando se comparte. Esta antigua filosofía africana nos recuerda que nuestra humanidad está entrelazada. Cada taza de café Ubuntu celebra la comunidad, la conexión y la experiencia compartida que hace que la vida sea significativa."
+    },
+    "sustainability": {
+      "title": "Sostenibilidad y Comercio Justo",
+      "description": "Proveniente éticamente de pequeños agricultores, garantizando el comercio justo y la gestión ambiental. Trabajamos con más de 500 agricultores en toda Uganda, ofreciendo salarios justos y apoyando prácticas agrícolas sostenibles que protegen nuestro medio ambiente para las generaciones futuras.",
+      "features": {
+        "organic": {
+          "title": "Orgánico",
+          "subtitle": "Agricultura sin químicos"
+        },
+        "farmers": {
+          "title": "500+ Agricultores",
+          "subtitle": "Asociaciones directas"
+        },
+        "fairTrade": {
+          "title": "Comercio Justo",
+          "subtitle": "Certificado ético"
+        }
+      }
+    }
+  },
+  "journey": {
+    "title": "De la Finca a la Taza",
+    "subtitle": "Cada grano pasa por nuestro proceso meticuloso, perfeccionado a lo largo de generaciones",
+    "steps": {
+      "handPicking": {
+        "title": "Recolección a Mano",
+        "description": "Solo las cerezas rojas más maduras son cuidadosamente seleccionadas por nuestros agricultores calificados, asegurando calidad premium desde el principio."
+      },
+      "sunDrying": {
+        "title": "Secado al Sol",
+        "description": "Las cerezas son despulpadas y fermentadas naturalmente, luego lavadas a mano y secadas al sol en camas elevadas para preservar su perfil de sabor único."
+      },
+      "expertRoasting": {
+        "title": "Tostado Experto",
+        "description": "Nuestros maestros tostadores controlan cuidadosamente la temperatura y el tiempo para desbloquear el equilibrio perfecto de notas de chocolate, cítricos y florales."
+      },
+      "premiumPackaging": {
+        "title": "Empaque Premium",
+        "description": "Los granos recién tostados se sellan en nuestro empaque exclusivo, preservando el aroma y la calidad desde Uganda hasta tu taza."
+      }
+    }
+  },
+  "journeyDetails": {
+    "handPicking": {
+      "title": "Recolección a Mano",
+      "subtitle": "Excelencia en la Cosecha Selectiva",
+      "description": "Nuestro viaje del café comienza al amanecer en las tierras altas volcánicas de Uganda, donde agricultores experimentados recolectan a mano solo las cerezas rojas más maduras. Este método de cosecha selectiva garantiza que cada cereza esté en su punto máximo de madurez, contribuyendo a la calidad excepcional y el sabor de nuestro café.",
+      "details": [
+        "Solo se seleccionan las cerezas rojas maduras",
+        "Múltiples pasadas a través de cada árbol durante la temporada de cosecha",
+        "Transporte inmediato a las instalaciones de procesamiento",
+        "Control de calidad en cada estación de recolección"
+      ]
+    },
+    "sunDrying": {
+      "title": "Secado al Sol",
+      "subtitle": "Tradición de Procesamiento Natural",
+      "description": "Después del despulpado, los granos de café pasan por una fermentación natural durante 12-24 horas, luego son cuidadosamente lavados a mano y extendidos en camas de secado africanas elevadas. Los granos se voltean regularmente bajo el sol ecuatorial de Uganda, desarrollando las notas únicas de miel y chocolate que definen nuestro café.",
+      "details": [
+        "La fermentación natural mejora la complejidad de sabores",
+        "Las camas elevadas aseguran circulación de aire y secado uniforme",
+        "El volteo regular previene la sobre-fermentación",
+        "Contenido de humedad monitoreado al 11-12% óptimo"
+      ]
+    },
+    "expertRoasting": {
+      "title": "Tostado Experto",
+      "subtitle": "Precisión y Artesanía",
+      "description": "Nuestros maestros tostadores en Kampala utilizan equipos de última generación combinados con generaciones de conocimiento. Cada perfil de tostado está cuidadosamente diseñado para resaltar los sabores inherentes de nuestros granos Arábica de gran altitud—desde notas cítricas vibrantes en los tuestes claros hasta la rica profundidad de chocolate en los tuestes oscuros.",
+      "details": [
+        "Precisión de temperatura con 1 grado Celsius",
+        "Monitoreo continuo durante todo el tostado",
+        "Perfiles personalizados para cada nivel de tueste",
+        "Enfriamiento inmediato para fijar los sabores"
+      ]
+    },
+    "premiumPackaging": {
+      "title": "Empaque Premium",
+      "subtitle": "Frescura Garantizada",
+      "description": "Pocas horas después del tostado, nuestro café se sella en bolsas equipadas con válvulas que preservan la frescura mientras permiten que escape el CO2. Cada empaque está etiquetado con la fecha de tostado y la información del lote, garantizando trazabilidad completa desde nuestras fincas hasta tu taza.",
+      "details": [
+        "Válvulas de desgasificación unidireccionales preservan la frescura",
+        "Materiales de empaque con protección UV",
+        "Trazabilidad completa del lote",
+        "Calidad probada antes del empaque"
+      ]
+    }
+  },
+  "tasting": {
+    "title": "Perfil de Sabor",
+    "description": "Notas de chocolate, cítricos y aromas florales sutiles, perfectos para tu ritual diario. Nuestro terroir único crea un perfil de sabor complejo que los amantes del café de todo el mundo han aprendido a amar.",
+    "flavors": {
+      "chocolate": {
+        "name": "Chocolate",
+        "description": "Notas de cacao ricas y aterciopeladas"
+      },
+      "citrus": {
+        "name": "Cítricos",
+        "description": "Matices brillantes y picantes"
+      },
+      "floral": {
+        "name": "Floral",
+        "description": "Toques sutiles y aromáticos"
+      },
+      "caramel": {
+        "name": "Caramelo",
+        "description": "Final dulce y suave"
+      }
+    },
+    "brewing": {
+      "title": "Recomendación de Preparación",
+      "description": "Mejor disfrutado en infusión, prensa francesa o espresso. Use agua a 93-96°C (200-205°F) para una extracción óptima."
+    }
+  },
+  "madeInUganda": {
+    "title": "Orgullosamente Hecho en Uganda",
+    "subtitle": "De la semilla a la taza, cada etapa de nuestro viaje del café ocurre aquí mismo en la Perla de África",
+    "production": {
+      "localProduction": {
+        "title": "100% Producción Local",
+        "description": "Cada etapa, desde la cosecha hasta el tostado, ocurre en Uganda, garantizando el control de calidad y apoyando el empleo local."
+      },
+      "worldClassRoasting": {
+        "title": "Tostado de Clase Mundial",
+        "description": "Nuestra instalación de tostado de última generación en Kampala utiliza equipos de precisión para resaltar los perfiles de sabor perfectos."
+      },
+      "expertProcessing": {
+        "title": "Procesamiento Experto",
+        "description": "De la cereza a la taza, nuestros equipos calificados manejan cada etapa con cuidado—lavado, secado, clasificación y control de calidad."
+      },
+      "localExpertise": {
+        "title": "Experiencia Local",
+        "description": "Los profesionales del café ugandés, desde agricultores hasta baristas, aportan generaciones de conocimiento y pasión a cada bolsa."
+      }
+    },
+    "baristas": {
+      "title": "Los Mejores Baristas de Uganda",
+      "subtitle": "Experiencia cafetera de clase mundial, talento local",
+      "samuel": {
+        "name": "Samuel Mugisha",
+        "title": "Barista Principal, Kampala",
+        "achievement": "🏆 Campeón Ugandés de Arte Latte 2024"
+      },
+      "grace": {
+        "name": "Grace Nakato",
+        "title": "Especialista en Café",
+        "achievement": "🏆 Q-Grader Certificado y Experto en Preparación"
+      },
+      "rebecca": {
+        "name": "Rebecca Nankya",
+        "title": "Gerente de Control de Calidad",
+        "achievement": "🏆 Catador de Café Certificado SCA"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Ubuntu en Acción",
+    "subtitle": "Recibiendo al mundo en Uganda — construyendo puentes a través de un café excepcional y valores compartidos",
+    "items": {
+      "globalCommunity": {
+        "title": "Comunidad Cafetera Global",
+        "description": "Compradores internacionales de Europa, Medio Oriente y Asia se unen a nuestros agricultores ugandeses, celebrando el espíritu Ubuntu de unión en el corazón de nuestras tierras altas cafeteras."
+      },
+      "europeanPartnership": {
+        "title": "Asociación Europea",
+        "description": "Expertos en café de toda Europa visitan nuestras plantaciones para descubrir de primera mano la calidad y el cuidado que se dedica a cada cosecha de nuestros granos Arábica premium."
+      },
+      "culturalExchange": {
+        "title": "Intercambio Cultural",
+        "description": "Los socios del Medio Oriente se unen a nuestras ceremonias tradicionales de café, compartiendo el rico patrimonio y la cálida hospitalidad que definen la cultura cafetera ugandesa."
+      },
+      "asianMarketGrowth": {
+        "title": "Crecimiento del Mercado Asiático",
+        "description": "Relaciones crecientes con compradores de café asiáticos traen nuestros granos sostenibles de origen único a los exigentes mercados de Japón, Corea y el Sudeste Asiático."
+      },
+      "qualityAssurance": {
+        "title": "Garantía de Calidad",
+        "description": "Catadores expertos de tostadores europeos especializados evalúan los excepcionales perfiles de sabor de nuestro café, garantizando que solo los mejores granos lleguen a los mercados internacionales."
+      },
+      "womenEmpowerment": {
+        "title": "Empoderamiento de las Mujeres",
+        "description": "Construyendo asociaciones que empoderan a las mujeres agricultoras ugandesas, conectándolas con compradores globales que valoran el abastecimiento ético y el desarrollo comunitario."
+      }
+    }
+  },
+  "globalMarkets": {
+    "title": "Alcance Global",
+    "subtitle": "De Uganda a tu taza — descubre la calidez de la cultura cafetera africana en todo el mundo",
+    "markets": {
+      "europe": {
+        "region": "Europa",
+        "stats": "15+ Países",
+        "description": "Proveedor principal para cafeterías premium europeas y tostadores especializados",
+        "countries": ["Alemania", "Reino Unido", "Francia", "Italia", "Países Bajos", "Suiza"]
+      },
+      "middleEast": {
+        "region": "Medio Oriente",
+        "stats": "6+ Países",
+        "description": "Socio de confianza para mercados de café de lujo en hotelería y retail",
+        "countries": ["EAU", "Arabia Saudita", "Qatar", "Kuwait", "Bahréin", "Turquía"]
+      },
+      "asia": {
+        "region": "Asia",
+        "stats": "8+ Países",
+        "description": "Presencia creciente en los sectores de café de especialidad y venta premium en Asia",
+        "countries": ["Japón", "Corea del Sur", "Singapur", "Hong Kong", "Malasia", "Tailandia"]
+      },
+      "americas": {
+        "region": "Américas",
+        "stats": "3+ Países",
+        "description": "Expansión de asociaciones a través de los mercados de América del Norte y del Sur",
+        "countries": ["Estados Unidos", "Canadá", "Brasil"]
+      }
+    },
+    "whyChoose": {
+      "premiumQuality": {
+        "title": "Calidad Premium",
+        "description": "100% Arábica de origen único de las tierras altas volcánicas, puntuaciones de cata consistentemente altas"
+      },
+      "reliableSupply": {
+        "title": "Cadena de Suministro Confiable",
+        "description": "Relaciones directas con 500+ agricultores garantizan disponibilidad estable durante todo el año"
+      },
+      "exportExpertise": {
+        "title": "Experiencia en Exportación",
+        "description": "Experimentados en logística internacional, aduanas y certificaciones de calidad"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Lo Que Dicen Nuestros Socios",
+    "subtitle": "De confianza para compradores de café premium en Europa y Medio Oriente",
+    "hans": {
+      "name": "Hans Mueller",
+      "location": "Múnich, Alemania",
+      "review": "¡La calidad es excepcional! Importamos Ubuntu Coffee para nuestra cadena de cafeterías en toda Alemania. Nuestros clientes adoran las ricas notas de chocolate y la historia detrás de cada bolsa."
+    },
+    "sarah": {
+      "name": "Sarah Osman",
+      "location": "Dubái, EAU",
+      "review": "Como distribuidor de café premium en Medio Oriente, Ubuntu Coffee se destaca. El abastecimiento ético y el origen de las tierras altas volcánicas crean un perfil de sabor único que nuestros clientes aprecian."
+    },
+    "marco": {
+      "name": "Marco Rossi",
+      "location": "Milán, Italia",
+      "review": "¡Absolutamente soberbio! El tueste medio es perfecto para espresso. Hemos sido socios de Ubuntu Coffee durante dos años y la consistencia de calidad es notable. Muy recomendado para mercados europeos."
+    },
+    "ahmed": {
+      "name": "Ahmed Al-Rashid",
+      "location": "Riad, Arabia Saudita",
+      "review": "Café excepcional con carácter africano auténtico. La filosofía Ubuntu resuena con nuestros valores de comunidad y calidad. Estamos orgullosos de servir esto en nuestros lugares de hospitalidad."
+    },
+    "emma": {
+      "name": "Emma Thompson",
+      "location": "Londres, Reino Unido",
+      "review": "La transparencia y las prácticas de comercio justo son lo que nos atrajo inicialmente, pero el increíble sabor nos mantiene ordenando. Perfecto para el exigente mercado británico del café."
+    },
+    "yusuf": {
+      "name": "Yusuf Hassan",
+      "location": "Estambul, Turquía",
+      "review": "Un puente entre la excelencia africana y la cultura cafetera global. Las notas florales del tueste claro son extraordinarias. Nuestra asociación mayorista continúa fortaleciéndose."
+    }
+  },
   "footer": {
     "brand": "UBUNTU COFFEE",
     "tagline": "Uganda - Perla de África",

@@ -156,6 +156,250 @@
       "review": "A bridge between African excellence and global coffee culture. The floral notes in the light roast are extraordinary. Our wholesale partnership continues to grow strong."
     }
   },
+  "story": {
+    "origin": {
+      "title": "Origin & Quality",
+      "description": "Grown in the misty highlands of Uganda, where the rich volcanic soil nurtures our 100% Arabica beans. At elevations reaching 1,800 meters on the slopes of Mount Elgon, our coffee cherries develop complex flavors and exceptional quality.",
+      "stats": {
+        "elevation": "Elevation",
+        "arabica": "Arabica",
+        "volcanicValue": "Volcanic",
+        "soil": "Soil"
+      }
+    },
+    "ubuntu": {
+      "title": "Ubuntu Philosophy",
+      "quote": "I am because we are",
+      "description": "Inspired by Ubuntu, our coffee brings people together—because life is richer when shared. This ancient African philosophy reminds us that our humanity is intertwined. Every cup of Ubuntu Coffee celebrates community, connection, and the shared experience that makes life meaningful."
+    },
+    "sustainability": {
+      "title": "Sustainability & Fair Trade",
+      "description": "Ethically sourced from smallholder farmers, ensuring fair trade and environmental stewardship. We partner with over 500 farmers across Uganda, providing fair wages and supporting sustainable agricultural practices that protect our environment for future generations.",
+      "features": {
+        "organic": {
+          "title": "Organic",
+          "subtitle": "Chemical-free farming"
+        },
+        "farmers": {
+          "title": "500+ Farmers",
+          "subtitle": "Direct partnerships"
+        },
+        "fairTrade": {
+          "title": "Fair Trade",
+          "subtitle": "Certified ethical"
+        }
+      }
+    }
+  },
+  "journey": {
+    "title": "From Farm to Cup",
+    "subtitle": "Every bean goes through our meticulous process, perfected over generations",
+    "steps": {
+      "handPicking": {
+        "title": "Hand Picking",
+        "description": "Only the ripest red cherries are carefully selected by our skilled farmers, ensuring premium quality from the start."
+      },
+      "sunDrying": {
+        "title": "Sun Drying",
+        "description": "Cherries are pulped and naturally fermented, then hand-washed and sun-dried on raised beds to preserve their unique flavor profile."
+      },
+      "expertRoasting": {
+        "title": "Expert Roasting",
+        "description": "Our master roasters carefully control temperature and time to unlock the perfect balance of chocolate, citrus, and floral notes."
+      },
+      "premiumPackaging": {
+        "title": "Premium Packaging",
+        "description": "Freshly roasted beans are sealed in our signature packaging, preserving aroma and quality from Uganda to your cup."
+      }
+    }
+  },
+  "journeyDetails": {
+    "handPicking": {
+      "title": "Hand Picking",
+      "subtitle": "Selective Harvesting Excellence",
+      "description": "Our coffee journey begins at dawn in the volcanic highlands of Uganda, where experienced farmers handpick only the ripest red cherries. This selective harvesting method ensures that each cherry is at peak ripeness, contributing to the exceptional quality and flavor of our coffee.",
+      "details": [
+        "Only ripe red cherries are selected",
+        "Multiple passes through each tree during harvest season",
+        "Immediate transport to processing facilities",
+        "Quality control at every picking station"
+      ]
+    },
+    "sunDrying": {
+      "title": "Sun Drying",
+      "subtitle": "Natural Processing Tradition",
+      "description": "After pulping, the coffee beans undergo natural fermentation for 12-24 hours, then are carefully hand-washed and spread on raised African drying beds. The beans are turned regularly under Uganda's equatorial sun, developing the unique honey and chocolate notes that define our coffee.",
+      "details": [
+        "Natural fermentation enhances flavor complexity",
+        "Raised beds ensure even airflow and drying",
+        "Regular turning prevents over-fermentation",
+        "Moisture content monitored to optimal 11-12%"
+      ]
+    },
+    "expertRoasting": {
+      "title": "Expert Roasting",
+      "subtitle": "Precision & Craft",
+      "description": "Our master roasters in Kampala use state-of-the-art equipment combined with generations of knowledge. Each roast profile is carefully designed to highlight the inherent flavors of our high-altitude Arabica beans—from bright citrus notes in light roasts to rich chocolate depth in dark roasts.",
+      "details": [
+        "Temperature precision within 1 degree Celsius",
+        "Continuous monitoring throughout roasting",
+        "Customized profiles for each roast level",
+        "Immediate cooling to lock in flavors"
+      ]
+    },
+    "premiumPackaging": {
+      "title": "Premium Packaging",
+      "subtitle": "Freshness Guaranteed",
+      "description": "Within hours of roasting, our coffee is sealed in valve-equipped bags that preserve freshness while allowing CO2 to escape. Each package is labeled with roast date and batch information, ensuring complete traceability from our farms to your cup.",
+      "details": [
+        "One-way degassing valves preserve freshness",
+        "UV-protective packaging materials",
+        "Complete batch traceability",
+        "Quality tested before packaging"
+      ]
+    }
+  },
+  "tasting": {
+    "title": "Taste Profile",
+    "description": "Notes of chocolate, citrus, and subtle floral aromas, perfect for your daily ritual. Our unique terroir creates a complex flavor profile that coffee enthusiasts around the world have come to love.",
+    "flavors": {
+      "chocolate": {
+        "name": "Chocolate",
+        "description": "Rich, velvety cocoa notes"
+      },
+      "citrus": {
+        "name": "Citrus",
+        "description": "Bright, zesty undertones"
+      },
+      "floral": {
+        "name": "Floral",
+        "description": "Subtle, aromatic hints"
+      },
+      "caramel": {
+        "name": "Caramel",
+        "description": "Sweet, smooth finish"
+      }
+    },
+    "brewing": {
+      "title": "Brewing Recommendation",
+      "description": "Best enjoyed as pour-over, French press, or espresso. Use water at 93-96°C (200-205°F) for optimal extraction."
+    }
+  },
+  "madeInUganda": {
+    "title": "Proudly Made in Uganda",
+    "subtitle": "From seed to cup, every step of our coffee journey happens right here in the Pearl of Africa",
+    "production": {
+      "localProduction": {
+        "title": "100% Local Production",
+        "description": "Every step from harvesting to roasting happens in Uganda, ensuring quality control and supporting local employment."
+      },
+      "worldClassRoasting": {
+        "title": "World-Class Roasting",
+        "description": "Our state-of-the-art roasting facility in Kampala uses precision equipment to bring out the perfect flavor profiles."
+      },
+      "expertProcessing": {
+        "title": "Expert Processing",
+        "description": "From cherry to cup, our skilled teams handle every stage with care—washing, drying, sorting, and quality testing."
+      },
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Ugandan coffee professionals, from farmers to baristas, bring generations of knowledge and passion to every bag."
+      }
+    },
+    "baristas": {
+      "title": "Uganda's Finest Baristas",
+      "subtitle": "World-class coffee expertise, homegrown talent",
+      "samuel": {
+        "name": "Samuel Mugisha",
+        "title": "Head Barista, Kampala",
+        "achievement": "🏆 2024 Uganda Latte Art Champion"
+      },
+      "grace": {
+        "name": "Grace Nakato",
+        "title": "Coffee Specialist",
+        "achievement": "🏆 Certified Q-Grader & Brewing Expert"
+      },
+      "rebecca": {
+        "name": "Rebecca Nankya",
+        "title": "Quality Control Lead",
+        "achievement": "🏆 SCA Certified Coffee Cupper"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Ubuntu in Action",
+    "subtitle": "Welcoming the world to Uganda — building bridges through exceptional coffee and shared values",
+    "items": {
+      "globalCommunity": {
+        "title": "Global Coffee Community",
+        "description": "International buyers from Europe, Middle East, and Asia unite with our Ugandan farmers, celebrating the Ubuntu spirit of togetherness in the heart of our coffee highlands."
+      },
+      "europeanPartnership": {
+        "title": "European Partnership",
+        "description": "Coffee experts from across Europe visit our plantations to experience firsthand the quality and care that goes into every harvest of our premium Arabica beans."
+      },
+      "culturalExchange": {
+        "title": "Cultural Exchange",
+        "description": "Middle Eastern partners join our traditional coffee ceremonies, sharing in the rich heritage and warm hospitality that defines Ugandan coffee culture."
+      },
+      "asianMarketGrowth": {
+        "title": "Asian Market Growth",
+        "description": "Growing relationships with Asian coffee buyers bring our sustainable, single-origin beans to discerning markets across Japan, Korea, and Southeast Asia."
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "description": "Expert cuppers from European specialty roasters evaluate our coffee's exceptional flavor profiles, ensuring only the finest beans reach international markets."
+      },
+      "womenEmpowerment": {
+        "title": "Women Empowerment",
+        "description": "Building partnerships that empower Ugandan women farmers, connecting them with global buyers who value ethical sourcing and community development."
+      }
+    }
+  },
+  "globalMarkets": {
+    "title": "Global Reach",
+    "subtitle": "From Uganda to your cup — experience the warmth of African coffee culture anywhere in the world",
+    "markets": {
+      "europe": {
+        "region": "Europe",
+        "stats": "15+ Countries",
+        "description": "Leading supplier to premium European cafés and specialty roasters",
+        "countries": ["Germany", "United Kingdom", "France", "Italy", "Netherlands", "Switzerland"]
+      },
+      "middleEast": {
+        "region": "Middle East",
+        "stats": "6+ Countries",
+        "description": "Trusted partner for luxury hospitality and retail coffee markets",
+        "countries": ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Turkey"]
+      },
+      "asia": {
+        "region": "Asia",
+        "stats": "8+ Countries",
+        "description": "Growing presence in Asia's specialty coffee and premium retail sectors",
+        "countries": ["Japan", "South Korea", "Singapore", "Hong Kong", "Malaysia", "Thailand"]
+      },
+      "americas": {
+        "region": "Americas",
+        "stats": "3+ Countries",
+        "description": "Expanding partnerships across North and South American markets",
+        "countries": ["United States", "Canada", "Brazil"]
+      }
+    },
+    "whyChoose": {
+      "premiumQuality": {
+        "title": "Premium Quality",
+        "description": "Single-origin 100% Arabica from volcanic highlands, consistently high cupping scores"
+      },
+      "reliableSupply": {
+        "title": "Reliable Supply Chain",
+        "description": "Direct relationships with 500+ farmers ensure stable year-round availability"
+      },
+      "exportExpertise": {
+        "title": "Export Expertise",
+        "description": "Experienced in international logistics, customs, and quality certifications"
+      }
+    }
+  },
   "footer": {
     "brand": "UBUNTU COFFEE",
     "tagline": "Uganda - Pearl of Africa",

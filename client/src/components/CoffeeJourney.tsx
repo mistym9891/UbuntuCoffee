@@ -1,41 +1,43 @@
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from "@/components/ui/card";
 import pickingImage from "@assets/generated_images/Authentic_hand_picking_closeup_294905e8.png";
 import dryingImage from "@assets/generated_images/Authentic_sun_drying_process_58938946.png";
 import roastingImage from "@assets/generated_images/Real_roasting_equipment_photo_63bd1486.png";
 import packagingImage from "@assets/generated_images/Real_packaging_export_scene_5dc8495a.png";
 
-const journeySteps = [
-  {
-    number: "01",
-    title: "Hand Picking",
-    description: "Only the ripest red cherries are carefully selected by our skilled farmers, ensuring premium quality from the start.",
-    image: pickingImage,
-    link: "#hand-picking"
-  },
-  {
-    number: "02",
-    title: "Sun Drying",
-    description: "Cherries are pulped and naturally fermented, then hand-washed and sun-dried on raised beds to preserve their unique flavor profile.",
-    image: dryingImage,
-    link: "#sun-drying"
-  },
-  {
-    number: "03",
-    title: "Expert Roasting",
-    description: "Our master roasters carefully control temperature and time to unlock the perfect balance of chocolate, citrus, and floral notes.",
-    image: roastingImage,
-    link: "#expert-roasting"
-  },
-  {
-    number: "04",
-    title: "Premium Packaging",
-    description: "Freshly roasted beans are sealed in our signature packaging, preserving aroma and quality from Uganda to your cup.",
-    image: packagingImage,
-    link: "#premium-packaging"
-  }
-];
-
 export default function CoffeeJourney() {
+  const { t } = useTranslation();
+
+  const journeySteps = [
+    {
+      number: "01",
+      title: t('journey.steps.handPicking.title'),
+      description: t('journey.steps.handPicking.description'),
+      image: pickingImage,
+      link: "#hand-picking"
+    },
+    {
+      number: "02",
+      title: t('journey.steps.sunDrying.title'),
+      description: t('journey.steps.sunDrying.description'),
+      image: dryingImage,
+      link: "#sun-drying"
+    },
+    {
+      number: "03",
+      title: t('journey.steps.expertRoasting.title'),
+      description: t('journey.steps.expertRoasting.description'),
+      image: roastingImage,
+      link: "#expert-roasting"
+    },
+    {
+      number: "04",
+      title: t('journey.steps.premiumPackaging.title'),
+      description: t('journey.steps.premiumPackaging.description'),
+      image: packagingImage,
+      link: "#premium-packaging"
+    }
+  ];
   const handleStepClick = (link: string) => {
     const element = document.querySelector(link);
     if (element) {
@@ -48,10 +50,10 @@ export default function CoffeeJourney() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4" data-testid="text-journey-title">
-            From Farm to Cup
+            {t('journey.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-journey-subtitle">
-            Every bean goes through our meticulous process, perfected over generations
+            {t('journey.subtitle')}
           </p>
         </div>
 

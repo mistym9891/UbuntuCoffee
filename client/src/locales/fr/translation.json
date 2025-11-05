@@ -122,6 +122,250 @@
       "germany": "Allemagne"
     }
   },
+  "story": {
+    "origin": {
+      "title": "Origine & Qualité",
+      "description": "Cultivé dans les hautes terres brumeuses de l'Ouganda, où le riche sol volcanique nourrit nos grains 100% Arabica. À des altitudes atteignant 1 800 mètres sur les pentes du mont Elgon, nos cerises de café développent des saveurs complexes et une qualité exceptionnelle.",
+      "stats": {
+        "elevation": "Altitude",
+        "arabica": "Arabica",
+        "volcanicValue": "Volcanique",
+        "soil": "Sol"
+      }
+    },
+    "ubuntu": {
+      "title": "Philosophie Ubuntu",
+      "quote": "Je suis parce que nous sommes",
+      "description": "Inspiré par Ubuntu, notre café rassemble les gens—parce que la vie est plus riche lorsqu'elle est partagée. Cette ancienne philosophie africaine nous rappelle que notre humanité est entrelacée. Chaque tasse de café Ubuntu célèbre la communauté, la connexion et l'expérience partagée qui rend la vie significative."
+    },
+    "sustainability": {
+      "title": "Durabilité & Commerce Équitable",
+      "description": "Provenant éthiquement de petits agriculteurs, garantissant le commerce équitable et la gestion environnementale. Nous travaillons avec plus de 500 agriculteurs à travers l'Ouganda, offrant des salaires équitables et soutenant des pratiques agricoles durables qui protègent notre environnement pour les générations futures.",
+      "features": {
+        "organic": {
+          "title": "Biologique",
+          "subtitle": "Agriculture sans produits chimiques"
+        },
+        "farmers": {
+          "title": "500+ Agriculteurs",
+          "subtitle": "Partenariats directs"
+        },
+        "fairTrade": {
+          "title": "Commerce Équitable",
+          "subtitle": "Certifié éthique"
+        }
+      }
+    }
+  },
+  "journey": {
+    "title": "De la Ferme à la Tasse",
+    "subtitle": "Chaque grain passe par notre processus méticuleux, perfectionné au fil des générations",
+    "steps": {
+      "handPicking": {
+        "title": "Cueillette à la Main",
+        "description": "Seules les cerises rouges les plus mûres sont soigneusement sélectionnées par nos agriculteurs qualifiés, assurant une qualité premium dès le départ."
+      },
+      "sunDrying": {
+        "title": "Séchage au Soleil",
+        "description": "Les cerises sont dépulpées et fermentées naturellement, puis lavées à la main et séchées au soleil sur des lits surélevés pour préserver leur profil de saveur unique."
+      },
+      "expertRoasting": {
+        "title": "Torréfaction Experte",
+        "description": "Nos maîtres torréfacteurs contrôlent soigneusement la température et le temps pour débloquer l'équilibre parfait de notes de chocolat, d'agrumes et florales."
+      },
+      "premiumPackaging": {
+        "title": "Emballage Premium",
+        "description": "Les grains fraîchement torréfiés sont scellés dans notre emballage signature, préservant l'arôme et la qualité de l'Ouganda à votre tasse."
+      }
+    }
+  },
+  "journeyDetails": {
+    "handPicking": {
+      "title": "Cueillette à la Main",
+      "subtitle": "Excellence de la Récolte Sélective",
+      "description": "Notre voyage du café commence à l'aube dans les hautes terres volcaniques de l'Ouganda, où des agriculteurs expérimentés cueillent à la main uniquement les cerises rouges les plus mûres. Cette méthode de récolte sélective garantit que chaque cerise est à maturité maximale, contribuant à la qualité exceptionnelle et à la saveur de notre café.",
+      "details": [
+        "Seules les cerises rouges mûres sont sélectionnées",
+        "Passages multiples à travers chaque arbre pendant la saison de récolte",
+        "Transport immédiat vers les installations de traitement",
+        "Contrôle qualité à chaque station de cueillette"
+      ]
+    },
+    "sunDrying": {
+      "title": "Séchage au Soleil",
+      "subtitle": "Tradition de Traitement Naturel",
+      "description": "Après le dépulpage, les grains de café subissent une fermentation naturelle pendant 12-24 heures, puis sont soigneusement lavés à la main et étalés sur des lits de séchage africains surélevés. Les grains sont régulièrement retournés sous le soleil équatorial de l'Ouganda, développant les notes uniques de miel et de chocolat qui définissent notre café.",
+      "details": [
+        "La fermentation naturelle améliore la complexité des saveurs",
+        "Les lits surélevés assurent une circulation d'air et un séchage uniformes",
+        "Le retournement régulier empêche la sur-fermentation",
+        "Teneur en humidité surveillée à 11-12% optimal"
+      ]
+    },
+    "expertRoasting": {
+      "title": "Torréfaction Experte",
+      "subtitle": "Précision & Artisanat",
+      "description": "Nos maîtres torréfacteurs à Kampala utilisent des équipements de pointe combinés à des générations de connaissances. Chaque profil de torréfaction est soigneusement conçu pour mettre en évidence les saveurs inhérentes de nos grains Arabica de haute altitude—des notes d'agrumes vives dans les torréfactions légères à la profondeur riche du chocolat dans les torréfactions foncées.",
+      "details": [
+        "Précision de température à 1 degré Celsius près",
+        "Surveillance continue tout au long de la torréfaction",
+        "Profils personnalisés pour chaque niveau de torréfaction",
+        "Refroidissement immédiat pour verrouiller les saveurs"
+      ]
+    },
+    "premiumPackaging": {
+      "title": "Emballage Premium",
+      "subtitle": "Fraîcheur Garantie",
+      "description": "Quelques heures après la torréfaction, notre café est scellé dans des sacs équipés de valves qui préservent la fraîcheur tout en permettant au CO2 de s'échapper. Chaque emballage est étiqueté avec la date de torréfaction et les informations de lot, garantissant une traçabilité complète de nos fermes à votre tasse.",
+      "details": [
+        "Valves de dégazage unidirectionnelles préservent la fraîcheur",
+        "Matériaux d'emballage protecteurs UV",
+        "Traçabilité complète du lot",
+        "Qualité testée avant l'emballage"
+      ]
+    }
+  },
+  "tasting": {
+    "title": "Profil Gustatif",
+    "description": "Notes de chocolat, d'agrumes et arômes floraux subtils, parfaits pour votre rituel quotidien. Notre terroir unique crée un profil de saveur complexe que les amateurs de café du monde entier ont appris à aimer.",
+    "flavors": {
+      "chocolate": {
+        "name": "Chocolat",
+        "description": "Notes de cacao riches et veloutées"
+      },
+      "citrus": {
+        "name": "Agrumes",
+        "description": "Nuances vives et zestées"
+      },
+      "floral": {
+        "name": "Floral",
+        "description": "Touches subtiles et aromatiques"
+      },
+      "caramel": {
+        "name": "Caramel",
+        "description": "Finale douce et onctueuse"
+      }
+    },
+    "brewing": {
+      "title": "Recommandation de Préparation",
+      "description": "Meilleur dégusté en infusion, presse française ou espresso. Utilisez de l'eau à 93-96°C (200-205°F) pour une extraction optimale."
+    }
+  },
+  "madeInUganda": {
+    "title": "Fièrement Fabriqué en Ouganda",
+    "subtitle": "De la graine à la tasse, chaque étape de notre voyage du café se déroule ici même dans la Perle de l'Afrique",
+    "production": {
+      "localProduction": {
+        "title": "100% Production Locale",
+        "description": "Chaque étape, de la récolte à la torréfaction, se déroule en Ouganda, garantissant le contrôle qualité et soutenant l'emploi local."
+      },
+      "worldClassRoasting": {
+        "title": "Torréfaction de Classe Mondiale",
+        "description": "Notre installation de torréfaction ultramoderne à Kampala utilise des équipements de précision pour faire ressortir les profils de saveur parfaits."
+      },
+      "expertProcessing": {
+        "title": "Traitement Expert",
+        "description": "De la cerise à la tasse, nos équipes qualifiées gèrent chaque étape avec soin—lavage, séchage, tri et contrôle qualité."
+      },
+      "localExpertise": {
+        "title": "Expertise Locale",
+        "description": "Les professionnels du café ougandais, des agriculteurs aux baristas, apportent des générations de connaissances et de passion à chaque sac."
+      }
+    },
+    "baristas": {
+      "title": "Les Meilleurs Baristas d'Ouganda",
+      "subtitle": "Expertise café de classe mondiale, talent local",
+      "samuel": {
+        "name": "Samuel Mugisha",
+        "title": "Barista en Chef, Kampala",
+        "achievement": "🏆 Champion Ougandais de Latte Art 2024"
+      },
+      "grace": {
+        "name": "Grace Nakato",
+        "title": "Spécialiste du Café",
+        "achievement": "🏆 Q-Grader Certifié & Expert en Infusion"
+      },
+      "rebecca": {
+        "name": "Rebecca Nankya",
+        "title": "Responsable du Contrôle Qualité",
+        "achievement": "🏆 Dégustateur de Café Certifié SCA"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Ubuntu en Action",
+    "subtitle": "Accueillir le monde en Ouganda — construire des ponts à travers un café exceptionnel et des valeurs partagées",
+    "items": {
+      "globalCommunity": {
+        "title": "Communauté Mondiale du Café",
+        "description": "Des acheteurs internationaux d'Europe, du Moyen-Orient et d'Asie s'unissent à nos agriculteurs ougandais, célébrant l'esprit Ubuntu de cohésion au cœur de nos hautes terres de café."
+      },
+      "europeanPartnership": {
+        "title": "Partenariat Européen",
+        "description": "Des experts en café de toute l'Europe visitent nos plantations pour découvrir de première main la qualité et le soin apportés à chaque récolte de nos grains Arabica premium."
+      },
+      "culturalExchange": {
+        "title": "Échange Culturel",
+        "description": "Les partenaires du Moyen-Orient se joignent à nos cérémonies traditionnelles du café, partageant le riche patrimoine et la chaleureuse hospitalité qui définissent la culture du café ougandaise."
+      },
+      "asianMarketGrowth": {
+        "title": "Croissance du Marché Asiatique",
+        "description": "Des relations croissantes avec les acheteurs de café asiatiques apportent nos grains durables d'origine unique aux marchés exigeants du Japon, de la Corée et de l'Asie du Sud-Est."
+      },
+      "qualityAssurance": {
+        "title": "Assurance Qualité",
+        "description": "Des dégustateurs experts de torréfacteurs européens spécialisés évaluent les profils de saveur exceptionnels de notre café, garantissant que seuls les meilleurs grains atteignent les marchés internationaux."
+      },
+      "womenEmpowerment": {
+        "title": "Autonomisation des Femmes",
+        "description": "Construire des partenariats qui autonomisent les femmes agricultrices ougandaises, les connectant à des acheteurs mondiaux qui valorisent l'approvisionnement éthique et le développement communautaire."
+      }
+    }
+  },
+  "globalMarkets": {
+    "title": "Portée Mondiale",
+    "subtitle": "De l'Ouganda à votre tasse — découvrez la chaleur de la culture du café africain partout dans le monde",
+    "markets": {
+      "europe": {
+        "region": "Europe",
+        "stats": "15+ Pays",
+        "description": "Fournisseur principal pour les cafés européens premium et les torréfacteurs spécialisés",
+        "countries": ["Allemagne", "Royaume-Uni", "France", "Italie", "Pays-Bas", "Suisse"]
+      },
+      "middleEast": {
+        "region": "Moyen-Orient",
+        "stats": "6+ Pays",
+        "description": "Partenaire de confiance pour les marchés de café de luxe hôtellerie et retail",
+        "countries": ["EAU", "Arabie Saoudite", "Qatar", "Koweït", "Bahreïn", "Turquie"]
+      },
+      "asia": {
+        "region": "Asie",
+        "stats": "8+ Pays",
+        "description": "Présence croissante dans les secteurs du café de spécialité et de la vente au détail premium en Asie",
+        "countries": ["Japon", "Corée du Sud", "Singapour", "Hong Kong", "Malaisie", "Thaïlande"]
+      },
+      "americas": {
+        "region": "Amériques",
+        "stats": "3+ Pays",
+        "description": "Expansion des partenariats à travers les marchés d'Amérique du Nord et du Sud",
+        "countries": ["États-Unis", "Canada", "Brésil"]
+      }
+    },
+    "whyChoose": {
+      "premiumQuality": {
+        "title": "Qualité Premium",
+        "description": "100% Arabica d'origine unique des hautes terres volcaniques, scores de dégustation constamment élevés"
+      },
+      "reliableSupply": {
+        "title": "Chaîne d'Approvisionnement Fiable",
+        "description": "Relations directes avec 500+ agriculteurs garantissent une disponibilité stable toute l'année"
+      },
+      "exportExpertise": {
+        "title": "Expertise en Exportation",
+        "description": "Expérimenté en logistique internationale, douanes et certifications qualité"
+      }
+    }
+  },
   "reviews": {
     "title": "Ce Que Disent Nos Partenaires",
     "subtitle": "De confiance par les acheteurs de café haut de gamme en Europe et au Moyen-Orient",

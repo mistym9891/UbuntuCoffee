@@ -1,65 +1,67 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Globe, TrendingUp, Award, Users } from "lucide-react";
-
-const markets = [
-  {
-    region: "Europe",
-    icon: Globe,
-    countries: ["Germany", "United Kingdom", "France", "Italy", "Netherlands", "Switzerland"],
-    stats: "15+ Countries",
-    description: "Leading supplier to premium European cafés and specialty roasters"
-  },
-  {
-    region: "Middle East",
-    icon: TrendingUp,
-    countries: ["UAE", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Turkey"],
-    stats: "6+ Countries",
-    description: "Trusted partner for luxury hospitality and retail coffee markets"
-  },
-  {
-    region: "Asia",
-    icon: Globe,
-    countries: ["Japan", "South Korea", "Singapore", "Hong Kong", "Malaysia", "Thailand"],
-    stats: "8+ Countries",
-    description: "Growing presence in Asia's specialty coffee and premium retail sectors"
-  },
-  {
-    region: "Americas",
-    icon: TrendingUp,
-    countries: ["United States", "Canada", "Brazil"],
-    stats: "3+ Countries",
-    description: "Expanding partnerships across North and South American markets"
-  }
-];
-
-const whyChoose = [
-  {
-    icon: Award,
-    title: "Premium Quality",
-    description: "Single-origin 100% Arabica from volcanic highlands, consistently high cupping scores"
-  },
-  {
-    icon: Users,
-    title: "Reliable Supply Chain",
-    description: "Direct relationships with 500+ farmers ensure stable year-round availability"
-  },
-  {
-    icon: Globe,
-    title: "Export Expertise",
-    description: "Experienced in international logistics, customs, and quality certifications"
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 export default function GlobalMarkets() {
+  const { t } = useTranslation();
+
+  const markets = [
+    {
+      region: t('globalMarkets.markets.europe.region'),
+      icon: Globe,
+      countries: t('globalMarkets.markets.europe.countries', { returnObjects: true }),
+      stats: t('globalMarkets.markets.europe.stats'),
+      description: t('globalMarkets.markets.europe.description')
+    },
+    {
+      region: t('globalMarkets.markets.middleEast.region'),
+      icon: TrendingUp,
+      countries: t('globalMarkets.markets.middleEast.countries', { returnObjects: true }),
+      stats: t('globalMarkets.markets.middleEast.stats'),
+      description: t('globalMarkets.markets.middleEast.description')
+    },
+    {
+      region: t('globalMarkets.markets.asia.region'),
+      icon: Globe,
+      countries: t('globalMarkets.markets.asia.countries', { returnObjects: true }),
+      stats: t('globalMarkets.markets.asia.stats'),
+      description: t('globalMarkets.markets.asia.description')
+    },
+    {
+      region: t('globalMarkets.markets.americas.region'),
+      icon: TrendingUp,
+      countries: t('globalMarkets.markets.americas.countries', { returnObjects: true }),
+      stats: t('globalMarkets.markets.americas.stats'),
+      description: t('globalMarkets.markets.americas.description')
+    }
+  ];
+
+  const whyChoose = [
+    {
+      icon: Award,
+      title: t('globalMarkets.whyChoose.premiumQuality.title'),
+      description: t('globalMarkets.whyChoose.premiumQuality.description')
+    },
+    {
+      icon: Users,
+      title: t('globalMarkets.whyChoose.reliableSupply.title'),
+      description: t('globalMarkets.whyChoose.reliableSupply.description')
+    },
+    {
+      icon: Globe,
+      title: t('globalMarkets.whyChoose.exportExpertise.title'),
+      description: t('globalMarkets.whyChoose.exportExpertise.description')
+    }
+  ];
   return (
     <section className="py-20 px-6 bg-card">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-card-foreground mb-4" data-testid="text-markets-title">
-            Global Reach
+            {t('globalMarkets.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-markets-subtitle">
-            From Uganda to your cup — experience the warmth of African coffee culture anywhere in the world
+            {t('globalMarkets.subtitle')}
           </p>
         </div>
 
@@ -84,7 +86,7 @@ export default function GlobalMarkets() {
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {market.countries.map((country, i) => (
+                  {(market.countries as string[]).map((country: string, i: number) => (
                     <span 
                       key={i} 
                       className="text-xs px-3 py-1 bg-background rounded-full text-foreground"

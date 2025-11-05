@@ -122,6 +122,250 @@
       "germany": "Deutschland"
     }
   },
+  "story": {
+    "origin": {
+      "title": "Herkunft & Qualität",
+      "description": "Angebaut im nebelverhangenen Hochland Ugandas, wo der reiche vulkanische Boden unsere 100% Arabica-Bohnen nährt. In Höhenlagen von bis zu 1.800 Metern an den Hängen des Mount Elgon entwickeln unsere Kaffeekirschen komplexe Aromen und außergewöhnliche Qualität.",
+      "stats": {
+        "elevation": "Höhe",
+        "arabica": "Arabica",
+        "volcanicValue": "Vulkanisch",
+        "soil": "Boden"
+      }
+    },
+    "ubuntu": {
+      "title": "Ubuntu-Philosophie",
+      "quote": "Ich bin, weil wir sind",
+      "description": "Inspiriert von Ubuntu bringt unser Kaffee Menschen zusammen — denn das Leben ist reicher, wenn es geteilt wird. Diese alte afrikanische Philosophie erinnert uns daran, dass unsere Menschlichkeit miteinander verwoben ist. Jede Tasse Ubuntu Coffee feiert Gemeinschaft, Verbundenheit und die geteilte Erfahrung, die dem Leben Bedeutung verleiht."
+    },
+    "sustainability": {
+      "title": "Nachhaltigkeit & Fairer Handel",
+      "description": "Ethisch bezogen von Kleinbauern, mit Garantie für fairen Handel und Umweltschutz. Wir arbeiten mit über 500 Bauern in ganz Uganda zusammen, bieten faire Löhne und unterstützen nachhaltige landwirtschaftliche Praktiken, die unsere Umwelt für zukünftige Generationen schützen.",
+      "features": {
+        "organic": {
+          "title": "Biologisch",
+          "subtitle": "Chemikalienfreier Anbau"
+        },
+        "farmers": {
+          "title": "500+ Bauern",
+          "subtitle": "Direkte Partnerschaften"
+        },
+        "fairTrade": {
+          "title": "Fairer Handel",
+          "subtitle": "Ethisch zertifiziert"
+        }
+      }
+    }
+  },
+  "journey": {
+    "title": "Von der Farm zur Tasse",
+    "subtitle": "Jede Bohne durchläuft unseren sorgfältigen Prozess, perfektioniert über Generationen hinweg",
+    "steps": {
+      "handPicking": {
+        "title": "Handpflücken",
+        "description": "Nur die reifsten roten Kirschen werden von unseren erfahrenen Bauern sorgfältig ausgewählt, um von Anfang an Premium-Qualität zu gewährleisten."
+      },
+      "sunDrying": {
+        "title": "Sonnentrocknung",
+        "description": "Die Kirschen werden entpulpt und natürlich fermentiert, dann von Hand gewaschen und auf erhöhten Betten in der Sonne getrocknet, um ihr einzigartiges Geschmacksprofil zu bewahren."
+      },
+      "expertRoasting": {
+        "title": "Expertenröstung",
+        "description": "Unsere Röstmeister kontrollieren sorgfältig Temperatur und Zeit, um die perfekte Balance von Schokoladen-, Zitrus- und Blumennoten zu entfalten."
+      },
+      "premiumPackaging": {
+        "title": "Premium-Verpackung",
+        "description": "Frisch geröstete Bohnen werden in unserer charakteristischen Verpackung versiegelt und bewahren Aroma und Qualität von Uganda bis in Ihre Tasse."
+      }
+    }
+  },
+  "journeyDetails": {
+    "handPicking": {
+      "title": "Handpflücken",
+      "subtitle": "Exzellenz der selektiven Ernte",
+      "description": "Unsere Kaffeereise beginnt im Morgengrauen im vulkanischen Hochland Ugandas, wo erfahrene Bauern nur die reifsten roten Kirschen von Hand pflücken. Diese selektive Erntemethode stellt sicher, dass jede Kirsche optimal reif ist und zur außergewöhnlichen Qualität und zum Geschmack unseres Kaffees beiträgt.",
+      "details": [
+        "Nur reife rote Kirschen werden ausgewählt",
+        "Mehrere Durchgänge durch jeden Baum während der Erntezeit",
+        "Sofortiger Transport zu den Verarbeitungsanlagen",
+        "Qualitätskontrolle an jeder Pflückstation"
+      ]
+    },
+    "sunDrying": {
+      "title": "Sonnentrocknung",
+      "subtitle": "Tradition der natürlichen Verarbeitung",
+      "description": "Nach dem Entpulpen durchlaufen die Kaffeebohnen eine natürliche Fermentation von 12-24 Stunden, werden dann sorgfältig von Hand gewaschen und auf erhöhten afrikanischen Trocknungsbetten ausgebreitet. Die Bohnen werden regelmäßig unter der äquatorialen Sonne Ugandas gewendet und entwickeln dabei die einzigartigen Honig- und Schokoladennoten, die unseren Kaffee definieren.",
+      "details": [
+        "Natürliche Fermentation verbessert die Geschmackskomplexität",
+        "Erhöhte Betten sorgen für Luftzirkulation und gleichmäßige Trocknung",
+        "Regelmäßiges Wenden verhindert Überfermentation",
+        "Feuchtigkeitsgehalt überwacht bei optimalem 11-12%"
+      ]
+    },
+    "expertRoasting": {
+      "title": "Expertenröstung",
+      "subtitle": "Präzision & Handwerkskunst",
+      "description": "Unsere Röstmeister in Kampala verwenden modernste Ausrüstung kombiniert mit Generationen von Wissen. Jedes Röstprofil wird sorgfältig gestaltet, um die inhärenten Aromen unserer Hochland-Arabica-Bohnen hervorzuheben — von lebhaften Zitrustönen in hellen Röstungen bis zur reichen Schokoladentiefe in dunklen Röstungen.",
+      "details": [
+        "Temperaturpräzision auf 1 Grad Celsius genau",
+        "Kontinuierliche Überwachung während des gesamten Röstvorgangs",
+        "Maßgeschneiderte Profile für jede Röststufe",
+        "Sofortige Kühlung zum Einschließen der Aromen"
+      ]
+    },
+    "premiumPackaging": {
+      "title": "Premium-Verpackung",
+      "subtitle": "Frische Garantiert",
+      "description": "Wenige Stunden nach der Röstung wird unser Kaffee in Beuteln mit Ventilen versiegelt, die die Frische bewahren und gleichzeitig CO2 entweichen lassen. Jede Verpackung ist mit Röstdatum und Chargennummer gekennzeichnet und gewährleistet vollständige Rückverfolgbarkeit von unseren Farmen bis in Ihre Tasse.",
+      "details": [
+        "Einweg-Entgasungsventile bewahren Frische",
+        "UV-schützende Verpackungsmaterialien",
+        "Vollständige Chargenrückverfolgbarkeit",
+        "Qualität vor dem Verpacken getestet"
+      ]
+    }
+  },
+  "tasting": {
+    "title": "Geschmacksprofil",
+    "description": "Schokoladen- und Zitrustöne mit subtilen Blumennoten, perfekt für Ihr tägliches Ritual. Unser einzigartiges Terroir schafft ein komplexes Geschmacksprofil, das Kaffeeliebhaber weltweit zu schätzen gelernt haben.",
+    "flavors": {
+      "chocolate": {
+        "name": "Schokolade",
+        "description": "Reiche, samtige Kakao-Noten"
+      },
+      "citrus": {
+        "name": "Zitrus",
+        "description": "Lebhafte, spritzige Nuancen"
+      },
+      "floral": {
+        "name": "Blumig",
+        "description": "Subtile aromatische Akzente"
+      },
+      "caramel": {
+        "name": "Karamell",
+        "description": "Sanfter, geschmeidiger Abgang"
+      }
+    },
+    "brewing": {
+      "title": "Brühempfehlung",
+      "description": "Am besten genossen als Pour-Over, French Press oder Espresso. Verwenden Sie Wasser bei 93-96°C (200-205°F) für optimale Extraktion."
+    }
+  },
+  "madeInUganda": {
+    "title": "Stolz Hergestellt in Uganda",
+    "subtitle": "Von der Saat bis zur Tasse — jeder Schritt unserer Kaffeereise findet hier in der Perle Afrikas statt",
+    "production": {
+      "localProduction": {
+        "title": "100% Lokale Produktion",
+        "description": "Jeder Schritt, von der Ernte bis zur Röstung, findet in Uganda statt, gewährleistet Qualitätskontrolle und unterstützt lokale Arbeitsplätze."
+      },
+      "worldClassRoasting": {
+        "title": "Weltklasse-Röstung",
+        "description": "Unsere hochmoderne Röstanlage in Kampala verwendet Präzisionsausrüstung, um die perfekten Geschmacksprofile hervorzubringen."
+      },
+      "expertProcessing": {
+        "title": "Fachkundige Verarbeitung",
+        "description": "Von der Kirsche bis zur Tasse behandeln unsere qualifizierten Teams jeden Schritt mit Sorgfalt — Waschen, Trocknen, Sortieren und Qualitätskontrolle."
+      },
+      "localExpertise": {
+        "title": "Lokales Fachwissen",
+        "description": "Ugandische Kaffeefachleute, von Bauern bis Baristas, bringen Generationen von Wissen und Leidenschaft in jeden Beutel ein."
+      }
+    },
+    "baristas": {
+      "title": "Ugandas Beste Baristas",
+      "subtitle": "Kaffee-Expertise von Weltklasse, lokales Talent",
+      "samuel": {
+        "name": "Samuel Mugisha",
+        "title": "Chefbarista, Kampala",
+        "achievement": "🏆 Ugandischer Latte Art Champion 2024"
+      },
+      "grace": {
+        "name": "Grace Nakato",
+        "title": "Kaffeespezialistin",
+        "achievement": "🏆 Q-Grader Zertifiziert & Brühexperte"
+      },
+      "rebecca": {
+        "name": "Rebecca Nankya",
+        "title": "Qualitätskontrollmanagerin",
+        "achievement": "🏆 SCA-Zertifizierter Kaffeeverkoster"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Ubuntu in Aktion",
+    "subtitle": "Die Welt in Uganda willkommen heißen — Brücken bauen durch außergewöhnlichen Kaffee und gemeinsame Werte",
+    "items": {
+      "globalCommunity": {
+        "title": "Globale Kaffee-Gemeinschaft",
+        "description": "Internationale Käufer aus Europa, dem Nahen Osten und Asien vereinen sich mit unseren ugandischen Bauern und feiern den Ubuntu-Geist der Zusammengehörigkeit im Herzen unseres Kaffeehochlandes."
+      },
+      "europeanPartnership": {
+        "title": "Europäische Partnerschaft",
+        "description": "Kaffeeexperten aus ganz Europa besuchen unsere Plantagen, um aus erster Hand die Qualität und Sorgfalt zu erleben, die in jede Ernte unserer Premium-Arabica-Bohnen einfließt."
+      },
+      "culturalExchange": {
+        "title": "Kultureller Austausch",
+        "description": "Partner aus dem Nahen Osten nehmen an unseren traditionellen Kaffeezeremonien teil und teilen das reiche Erbe und die herzliche Gastfreundschaft, die die ugandische Kaffeekultur definieren."
+      },
+      "asianMarketGrowth": {
+        "title": "Wachstum des Asiatischen Marktes",
+        "description": "Wachsende Beziehungen zu asiatischen Kaffeekäufern bringen unsere nachhaltig angebauten, single-origin Bohnen auf die anspruchsvollen Märkte Japans, Koreas und Südostasiens."
+      },
+      "qualityAssurance": {
+        "title": "Qualitätssicherung",
+        "description": "Expertenverkoster von europäischen Spezialitätenröstern bewerten die außergewöhnlichen Geschmacksprofile unseres Kaffees und stellen sicher, dass nur die besten Bohnen internationale Märkte erreichen."
+      },
+      "womenEmpowerment": {
+        "title": "Frauenförderung",
+        "description": "Aufbau von Partnerschaften, die ugandische Bäuerinnen stärken und sie mit globalen Käufern verbinden, die ethische Beschaffung und Gemeinschaftsentwicklung schätzen."
+      }
+    }
+  },
+  "globalMarkets": {
+    "title": "Globale Reichweite",
+    "subtitle": "Von Uganda in Ihre Tasse — entdecken Sie die Wärme der afrikanischen Kaffeekultur überall auf der Welt",
+    "markets": {
+      "europe": {
+        "region": "Europa",
+        "stats": "15+ Länder",
+        "description": "Hauptlieferant für Premium-Cafés und Spezialitätenröster in Europa",
+        "countries": ["Deutschland", "Vereinigtes Königreich", "Frankreich", "Italien", "Niederlande", "Schweiz"]
+      },
+      "middleEast": {
+        "region": "Naher Osten",
+        "stats": "6+ Länder",
+        "description": "Vertrauensvoller Partner für Luxus-Kaffeemärkte im Gastgewerbe und Einzelhandel",
+        "countries": ["VAE", "Saudi-Arabien", "Katar", "Kuwait", "Bahrain", "Türkei"]
+      },
+      "asia": {
+        "region": "Asien",
+        "stats": "8+ Länder",
+        "description": "Wachsende Präsenz in Spezialitätenkaffee und Premium-Einzelhandel in ganz Asien",
+        "countries": ["Japan", "Südkorea", "Singapur", "Hongkong", "Malaysia", "Thailand"]
+      },
+      "americas": {
+        "region": "Amerika",
+        "stats": "3+ Länder",
+        "description": "Ausbau von Partnerschaften in nord- und südamerikanischen Märkten",
+        "countries": ["USA", "Kanada", "Brasilien"]
+      }
+    },
+    "whyChoose": {
+      "premiumQuality": {
+        "title": "Premium-Qualität",
+        "description": "100% Single-Origin Arabica aus vulkanischem Hochland, konstant hohe Verkostungsbewertungen"
+      },
+      "reliableSupply": {
+        "title": "Zuverlässige Lieferkette",
+        "description": "Direkte Beziehungen zu über 500 Bauern gewährleisten stabile ganzjährige Verfügbarkeit"
+      },
+      "exportExpertise": {
+        "title": "Export-Expertise",
+        "description": "Erfahrung in internationaler Logistik, Zoll und Qualitätszertifizierungen"
+      }
+    }
+  },
   "reviews": {
     "title": "Was Unsere Partner Sagen",
     "subtitle": "Vertraut von Premium-Kaffeekäufern in Europa und dem Nahen Osten",
