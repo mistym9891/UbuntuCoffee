@@ -5,15 +5,23 @@ import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useState } from "react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
+import { apiRequest } from "@/lib/queryClient";
+import { useToast } from "@/hooks/use-toast";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const { toast } = useToast();
   const [email, setEmail] = useState("");
 
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Newsletter signup:", email);
-    setEmail("");
+    try {
+      await apiRequest("POST", "/api/newsletter", { email });
+      setEmail("");
+      toast({ title: t("footer.newsletterSuccess", "You're subscribed. Thank you!") });
+    } catch {
+      toast({ variant: "destructive", title: t("footer.newsletterError", "Please enter a valid email.") });
+    }
   };
 
   return (

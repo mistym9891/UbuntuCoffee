@@ -1,8 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Leaf, Users, Award, Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import volcanicImage from "@assets/generated_images/Volcanic_highlands_coffee_region_f4858a5b.png";
-import cooperationImage from "@assets/generated_images/Farmer_community_cooperation_scene_0b198f98.png";
+import volcanicImage from "@assets/photos/volcanic-highlands.jpg";
+import cooperationImage from "@assets/photos/farmer-cooperative.jpg";
 
 export default function StorySection() {
   const { t } = useTranslation();

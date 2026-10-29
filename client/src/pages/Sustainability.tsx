@@ -3,7 +3,7 @@ import FarmersSection from "@/components/FarmersSection";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Leaf, Users, Heart, Recycle } from "lucide-react";
-import cooperationImage from "@assets/generated_images/Farmer_community_cooperation_scene_0b198f98.png";
+import cooperationImage from "@assets/photos/farmer-cooperative.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function Sustainability() {

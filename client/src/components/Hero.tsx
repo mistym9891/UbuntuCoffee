@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@assets/generated_images/Natural_hero_plantation_photo_ee93ba44.png";
+import heroImage from "@assets/photos/hero-plantation.jpg";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";

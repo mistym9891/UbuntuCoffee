@@ -7,9 +7,13 @@ import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { Globe, Award, Ship } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { apiRequest } from "@/lib/queryClient";
+import { useToast } from "@/hooks/use-toast";
 
 export default function ExportInquiry() {
   const { t } = useTranslation();
+  const { toast } = useToast();
+  const [submitting, setSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     company: "",
     country: "",
@@ -18,9 +22,25 @@ export default function ExportInquiry() {
     message: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Export inquiry submitted:", formData);
+    setSubmitting(true);
+    try {
+      await apiRequest("POST", "/api/inquiries", formData);
+      setFormData({ company: "", country: "", email: "", volume: "", message: "" });
+      toast({
+        title: t("exportInquiry.form.successTitle", "Inquiry sent"),
+        description: t("exportInquiry.form.successBody", "Thank you. Our export team will reply within 2 business days."),
+      });
+    } catch {
+      toast({
+        variant: "destructive",
+        title: t("exportInquiry.form.errorTitle", "Could not send"),
+        description: t("exportInquiry.form.errorBody", "Please check the form and try again."),
+      });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -104,7 +124,7 @@ export default function ExportInquiry() {
                     data-testid="input-message"
                   />
                 </div>
-                <Button type="submit" className="w-full min-h-[44px]" data-testid="button-submit">
+                <Button type="submit" disabled={submitting} className="w-full min-h-[44px]" data-testid="button-submit">
                   {t('exportInquiry.form.submitButton')}
                 </Button>
               </form>

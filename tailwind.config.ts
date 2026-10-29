@@ -83,9 +83,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Roboto", "system-ui", "-apple-system", "sans-serif"],
-        serif: ["Oswald", "Impact", "sans-serif"],
-        accent: ["Merriweather", "Georgia", "serif"],
+        sans: ["DM Sans", "Noto Sans Arabic", "system-ui", "-apple-system", "sans-serif"],
+        serif: ["Fraunces", "Georgia", "Noto Sans Arabic", "serif"],
+        accent: ["Fraunces", "Georgia", "serif"],
         mono: ["var(--font-mono)"],
       },
       keyframes: {

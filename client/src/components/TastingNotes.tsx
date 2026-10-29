@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Coffee } from "lucide-react";
-import tastingImage from "@assets/generated_images/Premium_coffee_tasting_moment_57512778.png";
+import tastingImage from "@assets/photos/tasting-moment.jpg";
 import { useTranslation } from 'react-i18next';
 
 export default function TastingNotes() {

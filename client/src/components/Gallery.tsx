@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from 'react-i18next';
-import europeanPlantation from "@assets/generated_images/Real_European_visitor_farm_cbad4f71.png";
-import middleEasternCeremony from "@assets/generated_images/Real_Middle_East_coffee_ceremony_2ea3ecab.png";
-import asianRoastery from "@assets/generated_images/Real_Asian_visitors_facility_4707d690.png";
-import internationalGroup from "@assets/generated_images/Real_international_buyers_group_6cae605b.png";
-import europeanCupping from "@assets/generated_images/Real_quality_control_session_8018d0ca.png";
-import asianPartnership from "@assets/generated_images/Real_women_partnership_photo_ab2bf25e.png";
+import europeanPlantation from "@assets/photos/visitor-farm.jpg";
+import middleEasternCeremony from "@assets/photos/coffee-ceremony.jpg";
+import asianRoastery from "@assets/photos/buyers-roastery-tour.jpg";
+import internationalGroup from "@assets/photos/buyers-group.jpg";
+import europeanCupping from "@assets/photos/cupping-session.jpg";
+import asianPartnership from "@assets/photos/women-partnership.jpg";
 
 export default function Gallery() {
   const { t } = useTranslation();

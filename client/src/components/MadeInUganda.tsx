@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Factory, Award, Coffee, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import baristaLatteArt from "@assets/generated_images/Real_Ugandan_barista_working_184f8a98.png";
-import femaleBaristaPouring from "@assets/generated_images/Real_female_barista_pouring_7e5910bb.png";
-import roastingFacility from "@assets/generated_images/Coffee_roasting_facility_Uganda_8a2361b6.png";
-import qualityCupping from "@assets/generated_images/Real_quality_control_cupping_d4681134.png";
-import baristaChampionship from "@assets/generated_images/Ugandan_barista_championship_3def82db.png";
+import baristaLatteArt from "@assets/photos/barista-latte.jpg";
+import femaleBaristaPouring from "@assets/photos/barista-pourover.jpg";
+import roastingFacility from "@assets/photos/roasting-facility.jpg";
+import qualityCupping from "@assets/photos/quality-control.jpg";
+import baristaChampionship from "@assets/photos/barista-competition.jpg";
 
 export default function MadeInUganda() {
   const { t } = useTranslation();

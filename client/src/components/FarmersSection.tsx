@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import farmer1Image from "@assets/generated_images/Authentic_farmer_portrait_male_5ea28248.png";
-import farmer2Image from "@assets/generated_images/Authentic_farmer_portrait_female_e5b6ec50.png";
+import farmer1Image from "@assets/photos/farmer-male.jpg";
+import farmer2Image from "@assets/photos/farmer-female.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function FarmersSection() {

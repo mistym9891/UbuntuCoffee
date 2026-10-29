@@ -26,7 +26,7 @@ Preferred communication style: Simple, everyday language.
 - Custom theming with light/dark mode support and CSS variables for color management
 
 **Design System:**
-- Typography: Oswald (headings), Roboto (body), Merriweather (accents) - loaded from Google Fonts
+- Typography: Fraunces (headings), DM Sans (body), Noto Sans Arabic (Arabic fallback) - loaded from Google Fonts
 - Custom color palette using HSL color space with CSS variable system
 - Spacing based on Tailwind's 4px grid system
 - Premium aesthetic with hover elevations and smooth transitions
