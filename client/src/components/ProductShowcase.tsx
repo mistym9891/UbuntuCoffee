@@ -6,6 +6,7 @@ import mediumRoastImage from "@assets/generated_images/Uniform_medium_roast_prem
 import darkRoastImage from "@assets/generated_images/Uniform_dark_roast_premium_baa3af8a.png";
 import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
+import { paymentLinks } from "@/lib/payments";
 
 export default function ProductShowcase() {
   const { t } = useTranslation();
@@ -76,15 +77,34 @@ export default function ProductShowcase() {
                   {t(`products.${roast.key}.weight`)}
                 </p>
               </CardContent>
-              <CardFooter>
+              <CardFooter className="flex flex-col gap-2">
+                {paymentLinks.stripe[roast.key] && (
+                  <Button asChild className="w-full" variant="default" data-testid={`button-buy-${index}`}>
+                    <a href={paymentLinks.stripe[roast.key]} target="_blank" rel="noopener noreferrer">
+                      {t('products.buyNow', 'Buy now')}
+                    </a>
+                  </Button>
+                )}
+                {paymentLinks.paypal && (
+                  <Button asChild className="w-full" variant="outline" data-testid={`button-paypal-${index}`}>
+                    <a href={paymentLinks.paypal} target="_blank" rel="noopener noreferrer">
+                      {t('products.payWithPaypal', 'Pay with PayPal')}
+                    </a>
+                  </Button>
+                )}
                 <Button 
                   className="w-full" 
-                  variant="default"
+                  variant={paymentLinks.stripe[roast.key] || paymentLinks.paypal ? "ghost" : "default"}
                   onClick={() => setLocation('/contact')}
                   data-testid={`button-sample-${index}`}
                 >
                   {t('products.requestSample')}
                 </Button>
+                {paymentLinks.paypal && (
+                  <p className="text-xs text-muted-foreground text-center" data-testid={`text-paypal-note-${index}`}>
+                    {t('products.paypalNote', 'PayPal payments are processed by {{name}}.', { name: paymentLinks.paypalName })}
+                  </p>
+                )}
               </CardFooter>
             </Card>
           ))}

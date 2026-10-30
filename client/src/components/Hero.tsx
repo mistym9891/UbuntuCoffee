@@ -4,6 +4,7 @@ import heroImage from "@assets/photos/hero-plantation.jpg";
 import logoSymbol from "@assets/Screenshot 2025-11-02 030336_1762049032640.png";
 import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
+import { paymentLinks } from "@/lib/payments";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -43,9 +44,21 @@ export default function Hero() {
         </p>
         
         <div className="inline-block mb-6 sm:mb-8 px-4 sm:px-6 py-2 sm:py-3 bg-primary/90 backdrop-blur-md rounded-full border-2 border-primary-foreground/20 mx-2">
-          <p className="text-white font-semibold text-xs sm:text-sm md:text-base" data-testid="badge-farmer-support">
-            {t('hero.farmerSupport')}
-          </p>
+          {paymentLinks.stripe.farmerSupport || paymentLinks.paypal ? (
+            <a
+              href={paymentLinks.stripe.farmerSupport || paymentLinks.paypal}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold text-xs sm:text-sm md:text-base underline-offset-4 hover:underline"
+              data-testid="badge-farmer-support"
+            >
+              {t('hero.farmerSupport')}
+            </a>
+          ) : (
+            <p className="text-white font-semibold text-xs sm:text-sm md:text-base" data-testid="badge-farmer-support">
+              {t('hero.farmerSupport')}
+            </p>
+          )}
         </div>
         
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-2">
